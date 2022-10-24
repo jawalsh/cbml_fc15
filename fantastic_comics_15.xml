@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dcl.ils.indiana.edu/cbml/schema/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fantastic Comics #15: A Scholarly Edition</title>
+                <editor>John A. Walsh</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>John A. Walsh</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title xml:id="title01">Fantastic Comics</title>
+                        <imprint>
+                            <date when="1940-02-28"/>
+                            <publisher>Fox Publications</publisher>
+                            <pubPlace>New York</pubPlace>
+                            <biblScope unit="issue">15</biblScope>
+                        </imprint>
+                    </monogr>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>Samson and David</title>
+                            <author>Alex Boon</author>
+                            <extent><measure unit="page" quantity="13"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>Flip Falcon in the Fourth Dimension</title>
+                            <author>Orville Wells</author>
+                            <extent><measure unit="page" quantity="6"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>Yank Wilson Super Spy Q-4</title>
+                            <author>Grant Ferguson</author>
+                            <extent><measure unit="page" quantity="6"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>Space Smith</title>
+                            <author>Hank Christy</author>
+                            <extent><measure unit="page" quantity="6"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>The Golden Knight</title>
+                            <author>Grieg Chapian</author>
+                            <extent><measure unit="page" quantity="8"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>The Vampire of Hastings House</title>
+                            <author>N. N. Nathaniel</author>
+                            <extent><measure unit="page" quantity="2"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>Captain Kidd Explorer</title>
+                            <author>Bill Bossert</author>
+                            <extent><measure unit="page" quantity="5"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>Startdust the Super Wizard</title>
+                            <author>Fletcher Hanks</author>
+                            <extent><measure unit="page" quantity="8"/></extent>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem type="part">
+                        <bibl>
+                            <title>Sub Saunders</title>
+                            <author>Karl Kief</author>
+                            <extent><measure unit="page" quantity="7"/></extent>
+                        </bibl>
+                    </relatedItem>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition xml:id="uc" n="uppercase" scheme="css">text-transform:
+                    uppercase;</rendition>
+                <rendition xml:id="b" n="bold" scheme="css">font-weight: bold;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson type="fictional">
+                    <person xml:id="samson">
+                        <name>Samson</name>
+                    </person>
+                    <person xml:id="david">
+                        <name>David</name>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="pg_01">
+            <graphic url="fantastic_comics_015_pg_01.tif"/>
+
+            <!-- regex search:  ^(\d+)\t(\d+)\t(\d+)\t(\d+)\t(\d+)\t(\d+)\t(\d+)\t(\d+) -->
+            <!-- regex replace: <zone xml:id="pg_\1_pnl_\2" ulx="\3" uly="\4"  lrx="\5" lry="\6"/> -->
+        </surface>
+        <surface xml:id="pg_02">
+            <graphic url="fantastic_comics_015_pg_02.tif"/>
+        </surface>
+        <surface xml:id="pg_03">
+            <graphic url="fantastic_comics_015_pg_03.tif"/>
+            <zone xml:id="pg_03_pnl_01" ulx="140" uly="151" lrx="2090" lry="1468"/>
+            <zone xml:id="pg_03_pnl_02" ulx="143" uly="1494" lrx="1112" lry="2165"/>
+            <zone xml:id="pg_03_pnl_03" ulx="1130" uly="1494" lrx="2094" lry="2165"/>
+            <zone xml:id="pg_03_pnl_04" ulx="141" uly="2180" lrx="1110" lry="2827"/>
+            <zone xml:id="pg_03_pnl_05" ulx="1131" uly="2175" lrx="2099" lry="2831"/>
+        </surface>
+        <surface xml:id="pg_04">
+            <graphic url="fantastic_comics_015_pg_04.tif"/>
+            <zone xml:id="pg_04_pnl_01" ulx="140" uly="168" lrx="1106" lry="824"/>
+            <zone xml:id="pg_04_pnl_02" ulx="1120" uly="163" lrx="2092" lry="816"/>
+            <zone xml:id="pg_04_pnl_03" ulx="137" uly="840" lrx="1120" lry="1504"/>
+            <zone xml:id="pg_04_pnl_04" ulx="1129" uly="829" lrx="2101" lry="1496"/>
+            <zone xml:id="pg_04_pnl_05" ulx="140" uly="1508" lrx="1120" lry="2171"/>
+            <zone xml:id="pg_04_pnl_06" ulx="1131" uly="1506" lrx="2105" lry="2171"/>
+            <zone xml:id="pg_04_pnl_07" ulx="146" uly="2185" lrx="1120" lry="2848"/>
+            <zone xml:id="pg_04_pnl_08" ulx="1144" uly="2183" lrx="2112" lry="2848"/>
+        </surface>
+        <surface xml:id="pg_05">
+            <graphic url="fantastic_comics_015_pg_05.tif"/>
+            <zone xml:id="pg_05_pnl_01" ulx="155" uly="173" lrx="1106" lry="824"/>
+            <zone xml:id="pg_05_pnl_02" ulx="1138" uly="173" lrx="2088" lry="824"/>
+            <zone xml:id="pg_05_pnl_03" ulx="158" uly="847" lrx="1111" lry="1502"/>
+            <zone xml:id="pg_05_pnl_04" ulx="1140" uly="848" lrx="2093" lry="1499"/>
+            <zone xml:id="pg_05_pnl_05" ulx="153" uly="1524" lrx="1110" lry="2170"/>
+            <zone xml:id="pg_05_pnl_06" ulx="1136" uly="1524" lrx="2095" lry="2171"/>
+            <zone xml:id="pg_05_pnl_07" ulx="161" uly="2198" lrx="1114" lry="2843"/>
+            <zone xml:id="pg_05_pnl_08" ulx="1142" uly="2199" lrx="2095" lry="2848"/>
+        </surface>
+        <surface xml:id="pg_06">
+            <graphic url="fantastic_comics_015_pg_06.tif"/>
+            <zone xml:id="pg_06_pnl_01" ulx="144" uly="174" lrx="1100" lry="817"/>
+            <zone xml:id="pg_06_pnl_02" ulx="1125" uly="179" lrx="2086" lry="820"/>
+            <zone xml:id="pg_06_pnl_03" ulx="144" uly="844" lrx="1103" lry="1498"/>
+            <zone xml:id="pg_06_pnl_04" ulx="1129" uly="847" lrx="2085" lry="1496"/>
+            <zone xml:id="pg_06_pnl_05" ulx="145" uly="1522" lrx="1101" lry="2170"/>
+            <zone xml:id="pg_06_pnl_06" ulx="1133" uly="1524" lrx="2085" lry="2178"/>
+            <zone xml:id="pg_06_pnl_07" ulx="146" uly="2197" lrx="1105" lry="2843"/>
+            <zone xml:id="pg_06_pnl_08" ulx="1131" uly="2198" lrx="2086" lry="2848"/>
+        </surface>
+        <surface xml:id="pg_07">
+            <graphic url="fantastic_comics_015_pg_07.tif"/>
+            <zone xml:id="pg_07_pnl_01" ulx="147" uly="196"  lrx="1106" lry="839"/>
+            <zone xml:id="pg_07_pnl_02" ulx="1131" uly="192"  lrx="2093" lry="843"/>
+            <zone xml:id="pg_07_pnl_03" ulx="147" uly="862"  lrx="1109" lry="1515"/>
+            <zone xml:id="pg_07_pnl_04" ulx="1131" uly="864"  lrx="2096" lry="1519"/>
+            <zone xml:id="pg_07_pnl_05" ulx="151" uly="1533"  lrx="1108" lry="2196"/>
+            <zone xml:id="pg_07_pnl_06" ulx="1130" uly="1532"  lrx="2092" lry="2197"/>
+            <zone xml:id="pg_07_pnl_07" ulx="147" uly="2204"  lrx="1109" lry="2861"/>
+            <zone xml:id="pg_07_pnl_08" ulx="1130" uly="2210"  lrx="2093" lry="2864"/>
+        </surface>
+        <surface xml:id="pg_08">
+            <graphic url="fantastic_comics_015_pg_08.tif"/>
+            <zone xml:id="pg_08_pnl_01" ulx="147" uly="207"  lrx="1107" lry="850"/>
+            <zone xml:id="pg_08_pnl_02" ulx="1135" uly="201"  lrx="2095" lry="847"/>
+            <zone xml:id="pg_08_pnl_03" ulx="153" uly="870"  lrx="1114" lry="1526"/>
+            <zone xml:id="pg_08_pnl_04" ulx="1137" uly="868"  lrx="2097" lry="1526"/>
+            <zone xml:id="pg_08_pnl_05" ulx="149" uly="1545"  lrx="2103" lry="2201"/>
+            <zone xml:id="pg_08_pnl_06" ulx="148" uly="2220"  lrx="1115" lry="2869"/>
+            <zone xml:id="pg_08_pnl_07" ulx="1138" uly="2220"  lrx="2104" lry="2868"/>
+        </surface>
+        <surface xml:id="pg_09">
+            <graphic url="fantastic_comics_015_pg_09.tif"/>
+			<zone xml:id="pg_09_pnl_01" ulx="151" uly="216" lrx="1106" lry="861"/>
+<zone xml:id="pg_09_pnl_02" ulx="1132" uly="218" lrx="2082" lry="864"/>
+<zone xml:id="pg_09_pnl_03" ulx="152" uly="881" lrx="1104" lry="1533"/>
+<zone xml:id="pg_09_pnl_04" ulx="1133" uly="885" lrx="2088" lry="1536"/>
+<zone xml:id="pg_09_pnl_05" ulx="150" uly="1566" lrx="1107" lry="2222"/>
+<zone xml:id="pg_09_pnl_06" ulx="1132" uly="1565" lrx="2088" lry="2219"/>
+<zone xml:id="pg_09_pnl_07" ulx="152" uly="2243" lrx="1102" lry="2882"/>
+<zone xml:id="pg_09_pnl_08" ulx="1133" uly="2241" lrx="2094" lry="2886"/>
+        </surface>
+        <surface xml:id="pg_10">
+            <graphic url="fantastic_comics_015_pg_10.tif"/>
+        </surface>
+        <surface xml:id="pg_11">
+            <graphic url="fantastic_comics_015_pg_11.tif"/>
+        </surface>
+        <surface xml:id="pg_12">
+            <graphic url="fantastic_comics_015_pg_12.tif"/>
+        </surface>
+        <surface xml:id="pg_13">
+            <graphic url="fantastic_comics_015_pg_13.tif"/>
+        </surface>
+        <surface xml:id="pg_14">
+            <graphic url="fantastic_comics_015_pg_14.tif"/>
+        </surface>
+        <surface xml:id="pg_15">
+            <graphic url="fantastic_comics_015_pg_15.tif"/>
+        </surface>
+        <surface xml:id="pg_16">
+            <graphic url="fantastic_comics_015_pg_16.tif"/>
+        </surface>
+        <surface xml:id="pg_17">
+            <graphic url="fantastic_comics_015_pg_17.tif"/>
+        </surface>
+        <surface xml:id="pg_18">
+            <graphic url="fantastic_comics_015_pg_18.tif"/>
+        </surface>
+        <surface xml:id="pg_19">
+            <graphic url="fantastic_comics_015_pg_19.tif"/>
+        </surface>
+        <surface xml:id="pg_20">
+            <graphic url="fantastic_comics_015_pg_20.tif"/>
+        </surface>
+        <surface xml:id="pg_21">
+            <graphic url="fantastic_comics_015_pg_21.tif"/>
+        </surface>
+        <surface xml:id="pg_22">
+            <graphic url="fantastic_comics_015_pg_22.tif"/>
+        </surface>
+        <surface xml:id="pg_23">
+            <graphic url="fantastic_comics_015_pg_23.tif"/>
+        </surface>
+        <surface xml:id="pg_24">
+            <graphic url="fantastic_comics_015_pg_24.tif"/>
+        </surface>
+        <surface xml:id="pg_25">
+            <graphic url="fantastic_comics_015_pg_25.tif"/>
+        </surface>
+        <surface xml:id="pg_26">
+            <graphic url="fantastic_comics_015_pg_26.tif"/>
+        </surface>
+        <surface xml:id="pg_27">
+            <graphic url="fantastic_comics_015_pg_27.tif"/>
+        </surface>
+        <surface xml:id="pg_28">
+            <graphic url="fantastic_comics_015_pg_28.tif"/>
+        </surface>
+        <surface xml:id="pg_29">
+            <graphic url="fantastic_comics_015_pg_29.tif"/>
+        </surface>
+        <surface xml:id="pg_30">
+            <graphic url="fantastic_comics_015_pg_30.tif"/>
+        </surface>
+        <surface xml:id="pg_31">
+            <graphic url="fantastic_comics_015_pg_31.tif"/>
+        </surface>
+        <surface xml:id="pg_32">
+            <graphic url="fantastic_comics_015_pg_32.tif"/>
+        </surface>
+        <surface xml:id="pg_33">
+            <graphic url="fantastic_comics_015_pg_33.tif"/>
+        </surface>
+        <surface xml:id="pg_34">
+            <graphic url="fantastic_comics_015_pg_34_35.tif"/>
+        </surface>
+        <surface xml:id="pg_36">
+            <graphic url="fantastic_comics_015_pg_36.tif"/>
+        </surface>
+        <surface xml:id="pg_37">
+            <graphic url="fantastic_comics_015_pg_37.tif"/>
+        </surface>
+        <surface xml:id="pg_38">
+            <graphic url="fantastic_comics_015_pg_38.tif"/>
+        </surface>
+        <surface xml:id="pg_39">
+            <graphic url="fantastic_comics_015_pg_39.tif"/>
+        </surface>
+        <surface xml:id="pg_40">
+            <graphic url="fantastic_comics_015_pg_40.tif"/>
+        </surface>
+        <surface xml:id="pg_41">
+            <graphic url="fantastic_comics_015_pg_41.tif"/>
+        </surface>
+        <surface xml:id="pg_42">
+            <graphic url="fantastic_comics_015_pg_42.tif"/>
+        </surface>
+        <surface xml:id="pg_43">
+            <graphic url="fantastic_comics_015_pg_43.tif"/>
+        </surface>
+        <surface xml:id="pg_44">
+            <graphic url="fantastic_comics_015_pg_44.tif"/>
+        </surface>
+        <surface xml:id="pg_45">
+            <graphic url="fantastic_comics_015_pg_45.tif"/>
+        </surface>
+        <surface xml:id="pg_46">
+            <graphic url="fantastic_comics_015_pg_46.tif"/>
+        </surface>
+        <surface xml:id="pg_47">
+            <graphic url="fantastic_comics_015_pg_47.tif"/>
+        </surface>
+        <surface xml:id="pg_48">
+            <graphic url="fantastic_comics_015_pg_48.tif"/>
+        </surface>
+        <surface xml:id="pg_49">
+            <graphic url="fantastic_comics_015_pg_49.tif"/>
+        </surface>
+        <surface xml:id="pg_50">
+            <graphic url="fantastic_comics_015_pg_50.tif"/>
+        </surface>
+        <surface xml:id="pg_51">
+            <graphic url="fantastic_comics_015_pg_51.tif"/>
+        </surface>
+        <surface xml:id="pg_52">
+            <graphic url="fantastic_comics_015_pg_52.tif"/>
+        </surface>
+        <surface xml:id="pg_53">
+            <graphic url="fantastic_comics_015_pg_53.tif"/>
+        </surface>
+        <surface xml:id="pg_54">
+            <graphic url="fantastic_comics_015_pg_54.tif"/>
+        </surface>
+        <surface xml:id="pg_55">
+            <graphic url="fantastic_comics_015_pg_55.tif"/>
+        </surface>
+        <surface xml:id="pg_56">
+            <graphic url="fantastic_comics_015_pg_56.tif"/>
+        </surface>
+        <surface xml:id="pg_57">
+            <graphic url="fantastic_comics_015_pg_57.tif"/>
+        </surface>
+        <surface xml:id="pg_58">
+            <graphic url="fantastic_comics_015_pg_58.tif"/>
+        </surface>
+        <surface xml:id="pg_59">
+            <graphic url="fantastic_comics_015_pg_59.tif"/>
+        </surface>
+        <surface xml:id="pg_60">
+            <graphic url="fantastic_comics_015_pg_60.tif"/>
+        </surface>
+        <surface xml:id="pg_61">
+            <graphic url="fantastic_comics_015_pg_61.tif"/>
+        </surface>
+        <surface xml:id="pg_62">
+            <graphic url="fantastic_comics_015_pg_62.tif"/>
+        </surface>
+        <surface xml:id="pg_63">
+            <graphic url="fantastic_comics_015_pg_63.tif"/>
+        </surface>
+        <surface xml:id="pg_64">
+            <graphic url="fantastic_comics_015_pg_64.tif"/>
+        </surface>
+        <surface xml:id="pg_65">
+            <graphic url="fantastic_comics_015_pg_65.tif"/>
+        </surface>
+        <surface xml:id="pg_66">
+            <graphic url="fantastic_comics_015_pg_66.tif"/>
+        </surface>
+        <surface xml:id="pg_67">
+            <graphic url="fantastic_comics_015_pg_67.tif"/>
+        </surface>
+        <surface xml:id="pg_68">
+            <graphic url="fantastic_comics_015_pg_68.tif"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <pb n="1" facs="#pg_01"/>
+            <pb n="2" facs="#pg_02"/>
+        </front>
+        <group>
+            <text xml:id="fantastic_comics_15_samson_and_david">
+                <body>
+                    <pb n="3" facs="#pg_03"/>
+                    <div type="panelGrp">
+                        <cbml:panel facs="#pg_03_pnl_01">
+                            <head><title rendition="#uc">Samson and David</title></head>
+                            <cbml:caption rendition="#uc">Out of the mists of history comes mighty
+                                Samson--Like his famous ancestor, Samson pits his tremendous
+                                strength against the forces of evil and injustice--Mu… high priest
+                                of evil, plots agains civilization… </cbml:caption>
+                            <byline rendition="#uc">By—<lb/><hi rend="#b">Alex Boon</hi></byline>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_03_pnl_02">
+                            <cbml:balloon who="#david" type="speech" rendition="#uc">What a funny
+                                looking truck outside here… Never saw one like it
+                                before!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">That's
+                                strange! What’s it look like?</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_03_pnl_03">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">You’re
+                                right--I never saw one like this before!</cbml:balloon>
+                            <cbml:balloon type="thought" who="#david" rendition="#uc">Wonder what
+                                it’s doing here?</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_03_pnl_04">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">What
+                                the--!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david" rendition="#uc">Gas--<emph
+                                    rendition="#b">help!</emph></cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_03_pnl_05">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">No time to
+                                look for doors now!</cbml:balloon>
+                            <sound rendition="#uc">Crash!</sound>
+                            <fw place="right" type="pageNum">1</fw>
+                        </cbml:panel>
+                    </div>
+                    <pb n="4" facs="#pg_04"/>
+                    <div type="panelGrp">
+                        <cbml:panel facs="#pg_04_pnl_01">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">That gas is
+                                sinking--I’d better get David up on the roof here!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david" rendition="#uc"
+                                >Oh!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_04_pnl_02">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">And then I’ll
+                                look for those rats!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_04_pnl_03">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">You all right
+                                David?</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david" rendition="#uc">I will be in a
+                                minute… That’s some gas!</cbml:balloon>
+
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_04_pnl_04">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">Stay here and
+                                get your breath, David--I’ll be back!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david" rendition="#uc">I’ll wait for
+                                you!</cbml:balloon>
+
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_04_pnl_05">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">First I might
+                                as well tend to this item!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_04_pnl_06">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">I’ll just toss
+                                it where it can't do any harm!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_04_pnl_07">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">—And you boys
+                                cantel me who is responsible for that trick!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_04_pnl_08">
+                            <cbml:balloon type="speech" who="#samson" rendition="#uc">You’re rotten
+                                shots--You haven’t a chance!</cbml:balloon>
+                            <sound>Zing</sound>
+                            <sound>Zing</sound>
+                            <sound>Screech</sound>
+                            <fw place="right" type="pageNum">2</fw>
+                        </cbml:panel>
+                    </div>
+                    <pb n="5" facs="#pg_05"/>
+                    <div type="panelGrp">
+                        <cbml:panel facs="#pg_05_pnl_01">
+                            <cbml:balloon type="speech" who="#anon_man01" rendition="#uc">Help …
+                                help!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">See how you like this
+                                treatment!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon_man2">Ow!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_05_pnl_02">
+                            <cbml:balloon type="speech" who="#samson">But look out for the
+                                bumps!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon_man2">Oof!</cbml:balloon>
+                            <sound>Crash!</sound>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_05_pnl_03">
+                            <cbml:balloon type="speech" who="#samson">I’ll just let that fellow get
+                                away and see where he goes!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_05_pnl_04">
+                            <cbml:balloon type="speech" who="#samson">So there’s where they hang
+                                out!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_05_pnl_05">
+                            <cbml:balloon type="speech" who="#samson">First I’ll see how David is
+                                getting along--</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_05_pnl_06">
+                            <cbml:balloon type="speech" who="#samson"> Come on… Jump--I’ll catch
+                                you! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#david"> I hope so! </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_05_pnl_07">
+                            <cbml:balloon type="speech" who="#samson"> See? I said I’d catch you! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">
+                                <emph rendition="#b">Ugh!</emph> So you did! </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_05_pnl_08">
+                            <cbml:balloon type="speech" who="#david">
+                                <emph rendition="#b">Good!!</emph>
+                            </cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson"> Come on--We’ve got a little
+                                job to do down by the waterfront! </cbml:balloon>
+                            <fw place="right" type="pageNum">3</fw>
+                        </cbml:panel>
+                    </div>
+                    <pb n="6" facs="#pg_06"/>
+                    <div type="pnlGrp">
+                        <cbml:panel facs="#pg_06_pnl_01">
+                            <cbml:balloon type="speech" who="#samson"> It looks as though we’re not
+                                welcome! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#david"> Try and sneak under it!
+                            </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_02">
+                            <cbml:balloon type="speech" who="#samson"> They certainly closed the door fast </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_03">
+                            <cbml:balloon type="speech" who="#samson"> That’s no obstacle for me-- </cbml:balloon>
+                            <cbml:balloon type="speech" who="#david"> Let’s fo in! </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_04">
+                            <cbml:balloon type="speech" who="#samson"> The place looks deserted now! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#david"> The rats have run back into
+                                their holes! </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_05">
+                            <cbml:balloon type="speech" who="#david">
+                                <emph>Look out!</emph> YOu are getting careless! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">
+                                <emph>Oops!</emph> What’s this? </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_06">
+                            <cbml:balloon type="speech" who="#david"> Glad I didn’t go first! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson"> Quite a little trick--It
+                                would have torn most people in half! </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_07">
+                            <cbml:balloon type="speech" who="#david"> Well… What’s this? </cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson"> Looks like some sort of
+                                secret factory </cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_08">
+                            <cbml:balloon type="speech" who="#david">
+                                <emph rendition="#bold">What?</emph> Look… This place is right over
+                                the river! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson"> These machines are made to
+                                stamp out the coins of every nation in the world! </cbml:balloon>
+                        </cbml:panel>
+                    </div>
+					<pb n="7" facs="#pg_07"/>
+<div type="pnlGrp">
+	<cbml:panel facs="#pg_07_pnl_01">
+		<cbml:balloon type="speech" who="#samson">That’s handy--Just stand aside there!</cbml:balloon>
+		<cbml:balloon type="speech" who="#david">Oh… Oh!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_02">
+		<cbml:balloon type="speech" who="#samson">No one has any business using this sort of thing!</cbml:balloon>
+		<sound>Crash!</sound>
+		<cbml:balloon type="speech" who="#david">Well, they won’t again!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_07_pnl_03">
+		<cbml:balloon type="speech" who="#david">You go ahead and play--I’ll look around!</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">Go ahead… Holler if you want me!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_07_pnl_04">
+		<cbml:balloon type="speech" who="#samson">Oh-oh… Do I hear something?</cbml:balloon>
+		<sound>Crash!</sound>
+		<cbml:balloon type="speech" who="#david">Help! Help!!</cbml:balloon>
+		<!-- Do we identify speaker when we don't “know” speaker until a subsequent panel? -->
+	</cbml:panel>
+	<cbml:panel facs="#pg_07_pnl_05">
+		<cbml:balloon type="speech" who="#david">Samson-- <emph rendition="#b">Help!!</emph></cbml:balloon>
+		<cbml:balloon type="thought" who="#samson">Sounds like David… Wonder what he’s got into?</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_07_pnl_06">
+		<cbml:balloon type="speech" who="#samson">It comes from up there… I’d better look into it!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_07_pnl_07">
+		<cbml:balloon type="speech" who="#samson">This is the quickest way to get upstairs!</cbml:balloon>
+		<sound>Crash!!</sound>
+	</cbml:panel>
+	<cbml:panel facs="#pg_07_pnl_08">
+		<cbml:balloon type="speech" who="#david">Hurry-- It’s coming down!</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">I might have known you’d get into something!</cbml:balloon>
+		<fw place="right" type="pageNum">5</fw>
+	</cbml:panel>
+</div> 
+<pb n="8" facs="#pg_08"/>
+<div type="pnlGrp">
+	<cbml:panel facs="#pg_08_pnl_01">
+		<cbml:balloon type="speech" who="#david">Is that soe?</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">You do pick the darndest places to take a nap!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_08_pnl_02">
+		<cbml:balloon type="speech" who="#david">I am myself!</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">Now I’m beginning to get tired of these games!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_08_pnl_03">
+		<cbml:balloon type="speech" who="#samson">There’s going to be a change in this waterfront beginning now!</cbml:balloon>
+		<cbml:balloon type="speech" who="#david">What do you mean?</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_08_pnl_04">
+		<cbml:balloon type="speech" who="#david">Yes… Where are you going to put it?</cbml:balloon>
+		<cbml:balloon type="speech" who="#samons">Did you say this was right over the river?</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_08_pnl_05">
+		<sound>Splash!</sound>
+		<cbml:balloon type="speech" who="#david">Whee!</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">There she goes!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_08_pnl_06">
+		<cbml:balloon type="speech" who="#david">A man is trying to swim away--the current is too strong for him!</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">Might be a good idea to fish him out!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_08_pnl_07">
+		<cbml:balloon type="speech" who="#david">I’m right with you!</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">Quick… To the bridge--get your lariat ready!</cbml:balloon>
+		<fw place="right" type="pageNum">6</fw>
+	</cbml:panel>
+</div> 
+<pb n="9" facs="#pg_09"/>
+<div type="pnlGrp">
+	<cbml:panel facs="#pg_09_pnl_01">
+		<cbml:balloon type="speech" who="#samson">Don’t let him get by you, David!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">I’ve almost got him now!</cbml:balloon>
+<cbml:balloon type="speech" who="#anon_man">Help!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_09_pnl_02">
+		<cbml:balloon type="speech" who="#anon_man"><emph rendition="#b">Save me!</emph> Don’t- Don’t let me go!</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Hold tight!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">I’ve got him!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_09_pnl_03">
+		<cbml:balloon type="speech" who="#anon_man">I’m hanging on all right!</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Don’t let go of our friend there!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">We’re here!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_09_pnl_04">
+		<cbml:balloon type="speech" who="#anon_man">You saved my life--I must warn you now!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">Just tell us who’s making all this trouble!</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Of what?</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_09_pnl_05">
+		<cbml:balloon type="speech" who="#anon_man">It is Arpor, High Priest of Evil… who is behind this… He has sworn to get you! </cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">High Priest of Evil? Sounds daffy!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_09_pnl_06">
+		<cbml:balloon type="speech" who="#anon_man">Yes… He and his devotees are mad… But very dangerous…</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">I believe you!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">Duck, everybody--We’re being bombed!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_09_pnl_07">
+		<cbml:balloon type="speech" who="#david"><emph rendition="#b">Look out, Samson!</emph></cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">I think I can fix that!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_09_pnl_08">
+		<cbml:balloon type="speech" who="#samson">And <choice><sic>thats</sic><corr>that’s</corr></choice> the end of you!</cbml:balloon>
+		<sound>Crash!</sound>
+		<cbml:balloon type="speech" who="#david">What a shot!</cbml:balloon>
+		<fw place="right" type="pageNum">7</fw>
+	</cbml:panel>
+</div>   
+<!-- 
+<div type="pnlGrp">
+	<cbml:panel facs="#pg_06_pnl_01">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_02">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_03">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_04">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_05">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_06">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_07">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_06_pnl_08">
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+		<cbml:balloon type="speech" who="#"></cbml:balloon>
+	</cbml:panel>
+</div>   
+
+CONCATENATE('<zone xml:id="pg_0',$A2,'_pnl_0',$B2,'" ulx="',C2,'" uly="',D2,'" lrx="',E2,'" lry="',F2,'"/>')
+                    -->
+					
+<!-- Getting coordinates on iPad:
+Use Affirm Photo; open "Transform" panel to see coordinates; draw a box on the image and move it around to different panel corners, points, to get coordinates. -->
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

@@ -1,0 +1,63 @@
+body {
+	font-size: 16px;
+	font-family: "helvetical neue", "helvetica", sans-serif;
+	margin: 4em;
+}
+.panel {
+	
+	max-width: 500px;
+	background-color: #f1f1f1;
+}
+
+.caption,
+.panel,
+.balloon,
+.byline {
+	border: 2px solid black;
+	margin: 1em;
+	padding: 1em;
+}
+f
+.panel img { border: 1px solid black;}
+
+.caption,
+.byline {
+	background-color: #fcf483;
+}
+
+.sound {
+	border: 4px double #89072f;
+/*	border-bottom: 3px double #89072f; */
+	margin: 1em;
+	padding: 1em;
+	background-color: white;
+}
+
+.fw {
+	margin: 0;
+	padding: .25em;
+	border: 1px solid black;
+	background-color: white;
+}
+
+
+.balloon {
+	background-color: white;
+	border-radius: 12px;
+}
+
+.who {
+	font-weight: bold;
+}
+
+.balloon.speech {
+	border: 2px solid black;
+}
+
+.balloon.thought {
+	border: 2px dashed black;
+}
+.right {
+	float: right;
+	clear: both;
+}

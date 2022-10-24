@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>README</title>
+</head>
+<body>
+<h2>README.MD for CBML and SaxonJS demo</h2>
+
+<p>John A. Walsh<br/>
+<a class="autolink" href="mailto:jawalsh@indiana.edu">mailto:jawalsh@indiana.edu</a></p>
+
+<h1>Files and directories</h1>
+
+<ul>
+<li><p><code>fantastic_comics_15.xml</code>: TEI/XML source file with partial edited transcription of <em>Fantastic Comics</em> #15 (Feburary 1941). See <a class="autolink" href="https://www.comics.org/issue/1259/">https://www.comics.org/issue/1259/</a>.</p></li>
+<li><p><code>index.html</code>: “static skeleton” HTML page into which the output of the XSLT transformation is inserted. See <a class="autolink" href="https://www.saxonica.com/saxon-js/documentation2/index.html#!browser/result-documents">https://www.saxonica.com/saxon-js/documentation2/index.html#!browser/result-documents</a>.</p></li>
+<li><p><code>cbml2htmlJs.xsl</code>: XSLT stylesheet to transform the <code>fantastic_comics_15.xml</code> TEI/XML document into HTML. The XSLT is written to work with SaxonJS, a JavaScript XSLT 3.0 processor. See <a class="autolink" href="https://www.saxonica.com/saxon-js/index.xml">https://www.saxonica.com/saxon-js/index.xml</a>.</p></li>
+<li><p><code>cbml2htmlJs.sef.json</code>: The “compiled” version of the cbml2htmlJs.xsl` XSLT stylesheet, for use with the SaxonJS XSLT 3.0 processor. See <a class="autolink" href="https://www.saxonica.com/saxon-js/documentation2/index.html#!starting/export">https://www.saxonica.com/saxon-js/documentation2/index.html#!starting/export</a>.</p></li>
+<li><p><code>cbml.css</code>: CSS stylesheet for HTML version of document, which is the output of the XSLT transformation.</p></li>
+<li><p><code>js</code> directory: SaxonJS. SaxonJS can be downloaded from <a class="autolink" href="https://saxonica.com/">https://saxonica.com/</a>.</p></li>
+</ul>
+</body>
+</html>
