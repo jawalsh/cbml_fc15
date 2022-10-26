@@ -160,38 +160,46 @@
         </surface>
         <surface xml:id="pg_07">
             <graphic url="fantastic_comics_015_pg_07.tif"/>
-            <zone xml:id="pg_07_pnl_01" ulx="147" uly="196"  lrx="1106" lry="839"/>
-            <zone xml:id="pg_07_pnl_02" ulx="1131" uly="192"  lrx="2093" lry="843"/>
-            <zone xml:id="pg_07_pnl_03" ulx="147" uly="862"  lrx="1109" lry="1515"/>
-            <zone xml:id="pg_07_pnl_04" ulx="1131" uly="864"  lrx="2096" lry="1519"/>
-            <zone xml:id="pg_07_pnl_05" ulx="151" uly="1533"  lrx="1108" lry="2196"/>
-            <zone xml:id="pg_07_pnl_06" ulx="1130" uly="1532"  lrx="2092" lry="2197"/>
-            <zone xml:id="pg_07_pnl_07" ulx="147" uly="2204"  lrx="1109" lry="2861"/>
-            <zone xml:id="pg_07_pnl_08" ulx="1130" uly="2210"  lrx="2093" lry="2864"/>
+            <zone xml:id="pg_07_pnl_01" ulx="147" uly="196" lrx="1106" lry="839"/>
+            <zone xml:id="pg_07_pnl_02" ulx="1131" uly="192" lrx="2093" lry="843"/>
+            <zone xml:id="pg_07_pnl_03" ulx="147" uly="862" lrx="1109" lry="1515"/>
+            <zone xml:id="pg_07_pnl_04" ulx="1131" uly="864" lrx="2096" lry="1519"/>
+            <zone xml:id="pg_07_pnl_05" ulx="151" uly="1533" lrx="1108" lry="2196"/>
+            <zone xml:id="pg_07_pnl_06" ulx="1130" uly="1532" lrx="2092" lry="2197"/>
+            <zone xml:id="pg_07_pnl_07" ulx="147" uly="2204" lrx="1109" lry="2861"/>
+            <zone xml:id="pg_07_pnl_08" ulx="1130" uly="2210" lrx="2093" lry="2864"/>
         </surface>
         <surface xml:id="pg_08">
             <graphic url="fantastic_comics_015_pg_08.tif"/>
-            <zone xml:id="pg_08_pnl_01" ulx="147" uly="207"  lrx="1107" lry="850"/>
-            <zone xml:id="pg_08_pnl_02" ulx="1135" uly="201"  lrx="2095" lry="847"/>
-            <zone xml:id="pg_08_pnl_03" ulx="153" uly="870"  lrx="1114" lry="1526"/>
-            <zone xml:id="pg_08_pnl_04" ulx="1137" uly="868"  lrx="2097" lry="1526"/>
-            <zone xml:id="pg_08_pnl_05" ulx="149" uly="1545"  lrx="2103" lry="2201"/>
-            <zone xml:id="pg_08_pnl_06" ulx="148" uly="2220"  lrx="1115" lry="2869"/>
-            <zone xml:id="pg_08_pnl_07" ulx="1138" uly="2220"  lrx="2104" lry="2868"/>
+            <zone xml:id="pg_08_pnl_01" ulx="147" uly="207" lrx="1107" lry="850"/>
+            <zone xml:id="pg_08_pnl_02" ulx="1135" uly="201" lrx="2095" lry="847"/>
+            <zone xml:id="pg_08_pnl_03" ulx="153" uly="870" lrx="1114" lry="1526"/>
+            <zone xml:id="pg_08_pnl_04" ulx="1137" uly="868" lrx="2097" lry="1526"/>
+            <zone xml:id="pg_08_pnl_05" ulx="149" uly="1545" lrx="2103" lry="2201"/>
+            <zone xml:id="pg_08_pnl_06" ulx="148" uly="2220" lrx="1115" lry="2869"/>
+            <zone xml:id="pg_08_pnl_07" ulx="1138" uly="2220" lrx="2104" lry="2868"/>
         </surface>
         <surface xml:id="pg_09">
             <graphic url="fantastic_comics_015_pg_09.tif"/>
-			<zone xml:id="pg_09_pnl_01" ulx="151" uly="216" lrx="1106" lry="861"/>
-<zone xml:id="pg_09_pnl_02" ulx="1132" uly="218" lrx="2082" lry="864"/>
-<zone xml:id="pg_09_pnl_03" ulx="152" uly="881" lrx="1104" lry="1533"/>
-<zone xml:id="pg_09_pnl_04" ulx="1133" uly="885" lrx="2088" lry="1536"/>
-<zone xml:id="pg_09_pnl_05" ulx="150" uly="1566" lrx="1107" lry="2222"/>
-<zone xml:id="pg_09_pnl_06" ulx="1132" uly="1565" lrx="2088" lry="2219"/>
-<zone xml:id="pg_09_pnl_07" ulx="152" uly="2243" lrx="1102" lry="2882"/>
-<zone xml:id="pg_09_pnl_08" ulx="1133" uly="2241" lrx="2094" lry="2886"/>
+            <zone xml:id="pg_09_pnl_01" ulx="151" uly="216" lrx="1106" lry="861"/>
+            <zone xml:id="pg_09_pnl_02" ulx="1132" uly="218" lrx="2082" lry="864"/>
+            <zone xml:id="pg_09_pnl_03" ulx="152" uly="881" lrx="1104" lry="1533"/>
+            <zone xml:id="pg_09_pnl_04" ulx="1133" uly="885" lrx="2088" lry="1536"/>
+            <zone xml:id="pg_09_pnl_05" ulx="150" uly="1566" lrx="1107" lry="2222"/>
+            <zone xml:id="pg_09_pnl_06" ulx="1132" uly="1565" lrx="2088" lry="2219"/>
+            <zone xml:id="pg_09_pnl_07" ulx="152" uly="2243" lrx="1102" lry="2882"/>
+            <zone xml:id="pg_09_pnl_08" ulx="1133" uly="2241" lrx="2094" lry="2886"/>
         </surface>
         <surface xml:id="pg_10">
             <graphic url="fantastic_comics_015_pg_10.tif"/>
+            <zone xml:id="pg_010_pnl_01" ulx="151" uly="200" lrx="1102" lry="850"/>
+            <zone xml:id="pg_010_pnl_02" ulx="1127" uly="200" lrx="2088" lry="858"/>
+            <zone xml:id="pg_010_pnl_03" ulx="143" uly="870" lrx="1106" lry="1531"/>
+            <zone xml:id="pg_010_pnl_04" ulx="1131" uly="870" lrx="2088" lry="1541"/>
+            <zone xml:id="pg_010_pnl_05" ulx="142" uly="1545" lrx="1107" lry="2213"/>
+            <zone xml:id="pg_010_pnl_06" ulx="1124" uly="1550" lrx="2088" lry="2219"/>
+            <zone xml:id="pg_010_pnl_07" ulx="143" uly="2224" lrx="11021110" lry="2878"/>
+            <zone xml:id="pg_010_pnl_08" ulx="1127" uly="2228" lrx="2089" lry="2883"/>
         </surface>
         <surface xml:id="pg_11">
             <graphic url="fantastic_comics_015_pg_11.tif"/>
@@ -512,7 +520,8 @@
                             </cbml:balloon>
                         </cbml:panel>
                         <cbml:panel facs="#pg_06_pnl_02">
-                            <cbml:balloon type="speech" who="#samson"> They certainly closed the door fast </cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson"> They certainly closed the
+                                door fast </cbml:balloon>
                         </cbml:panel>
                         <cbml:panel facs="#pg_06_pnl_03">
                             <cbml:balloon type="speech" who="#samson"> That’s no obstacle for me-- </cbml:balloon>
@@ -547,120 +556,215 @@
                                 stamp out the coins of every nation in the world! </cbml:balloon>
                         </cbml:panel>
                     </div>
-					<pb n="7" facs="#pg_07"/>
-<div type="pnlGrp">
-	<cbml:panel facs="#pg_07_pnl_01">
-		<cbml:balloon type="speech" who="#samson">That’s handy--Just stand aside there!</cbml:balloon>
-		<cbml:balloon type="speech" who="#david">Oh… Oh!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_06_pnl_02">
-		<cbml:balloon type="speech" who="#samson">No one has any business using this sort of thing!</cbml:balloon>
-		<sound>Crash!</sound>
-		<cbml:balloon type="speech" who="#david">Well, they won’t again!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_07_pnl_03">
-		<cbml:balloon type="speech" who="#david">You go ahead and play--I’ll look around!</cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">Go ahead… Holler if you want me!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_07_pnl_04">
-		<cbml:balloon type="speech" who="#samson">Oh-oh… Do I hear something?</cbml:balloon>
-		<sound>Crash!</sound>
-		<cbml:balloon type="speech" who="#david">Help! Help!!</cbml:balloon>
-		<!-- Do we identify speaker when we don't “know” speaker until a subsequent panel? -->
-	</cbml:panel>
-	<cbml:panel facs="#pg_07_pnl_05">
-		<cbml:balloon type="speech" who="#david">Samson-- <emph rendition="#b">Help!!</emph></cbml:balloon>
-		<cbml:balloon type="thought" who="#samson">Sounds like David… Wonder what he’s got into?</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_07_pnl_06">
-		<cbml:balloon type="speech" who="#samson">It comes from up there… I’d better look into it!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_07_pnl_07">
-		<cbml:balloon type="speech" who="#samson">This is the quickest way to get upstairs!</cbml:balloon>
-		<sound>Crash!!</sound>
-	</cbml:panel>
-	<cbml:panel facs="#pg_07_pnl_08">
-		<cbml:balloon type="speech" who="#david">Hurry-- It’s coming down!</cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">I might have known you’d get into something!</cbml:balloon>
-		<fw place="right" type="pageNum">5</fw>
-	</cbml:panel>
-</div> 
-<pb n="8" facs="#pg_08"/>
-<div type="pnlGrp">
-	<cbml:panel facs="#pg_08_pnl_01">
-		<cbml:balloon type="speech" who="#david">Is that soe?</cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">You do pick the darndest places to take a nap!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_08_pnl_02">
-		<cbml:balloon type="speech" who="#david">I am myself!</cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">Now I’m beginning to get tired of these games!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_08_pnl_03">
-		<cbml:balloon type="speech" who="#samson">There’s going to be a change in this waterfront beginning now!</cbml:balloon>
-		<cbml:balloon type="speech" who="#david">What do you mean?</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_08_pnl_04">
-		<cbml:balloon type="speech" who="#david">Yes… Where are you going to put it?</cbml:balloon>
-		<cbml:balloon type="speech" who="#samons">Did you say this was right over the river?</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_08_pnl_05">
-		<sound>Splash!</sound>
-		<cbml:balloon type="speech" who="#david">Whee!</cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">There she goes!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_08_pnl_06">
-		<cbml:balloon type="speech" who="#david">A man is trying to swim away--the current is too strong for him!</cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">Might be a good idea to fish him out!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_08_pnl_07">
-		<cbml:balloon type="speech" who="#david">I’m right with you!</cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">Quick… To the bridge--get your lariat ready!</cbml:balloon>
-		<fw place="right" type="pageNum">6</fw>
-	</cbml:panel>
-</div> 
-<pb n="9" facs="#pg_09"/>
-<div type="pnlGrp">
-	<cbml:panel facs="#pg_09_pnl_01">
-		<cbml:balloon type="speech" who="#samson">Don’t let him get by you, David!</cbml:balloon>
-<cbml:balloon type="speech" who="#david">I’ve almost got him now!</cbml:balloon>
-<cbml:balloon type="speech" who="#anon_man">Help!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_09_pnl_02">
-		<cbml:balloon type="speech" who="#anon_man"><emph rendition="#b">Save me!</emph> Don’t- Don’t let me go!</cbml:balloon>
-<cbml:balloon type="speech" who="#samson">Hold tight!</cbml:balloon>
-<cbml:balloon type="speech" who="#david">I’ve got him!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_09_pnl_03">
-		<cbml:balloon type="speech" who="#anon_man">I’m hanging on all right!</cbml:balloon>
-<cbml:balloon type="speech" who="#samson">Don’t let go of our friend there!</cbml:balloon>
-<cbml:balloon type="speech" who="#david">We’re here!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_09_pnl_04">
-		<cbml:balloon type="speech" who="#anon_man">You saved my life--I must warn you now!</cbml:balloon>
-<cbml:balloon type="speech" who="#david">Just tell us who’s making all this trouble!</cbml:balloon>
-<cbml:balloon type="speech" who="#samson">Of what?</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_09_pnl_05">
-		<cbml:balloon type="speech" who="#anon_man">It is Arpor, High Priest of Evil… who is behind this… He has sworn to get you! </cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">High Priest of Evil? Sounds daffy!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_09_pnl_06">
-		<cbml:balloon type="speech" who="#anon_man">Yes… He and his devotees are mad… But very dangerous…</cbml:balloon>
-<cbml:balloon type="speech" who="#samson">I believe you!</cbml:balloon>
-<cbml:balloon type="speech" who="#david">Duck, everybody--We’re being bombed!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_09_pnl_07">
-		<cbml:balloon type="speech" who="#david"><emph rendition="#b">Look out, Samson!</emph></cbml:balloon>
-		<cbml:balloon type="speech" who="#samson">I think I can fix that!</cbml:balloon>
-	</cbml:panel>
-	<cbml:panel facs="#pg_09_pnl_08">
-		<cbml:balloon type="speech" who="#samson">And <choice><sic>thats</sic><corr>that’s</corr></choice> the end of you!</cbml:balloon>
-		<sound>Crash!</sound>
-		<cbml:balloon type="speech" who="#david">What a shot!</cbml:balloon>
-		<fw place="right" type="pageNum">7</fw>
-	</cbml:panel>
-</div>   
-<!-- 
+                    <pb n="7" facs="#pg_07"/>
+                    <div type="pnlGrp">
+                        <cbml:panel facs="#pg_07_pnl_01">
+                            <cbml:balloon type="speech" who="#samson">That’s handy--Just stand aside
+                                there!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">Oh… Oh!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_06_pnl_02">
+                            <cbml:balloon type="speech" who="#samson">No one has any business using
+                                this sort of thing!</cbml:balloon>
+                            <sound>Crash!</sound>
+                            <cbml:balloon type="speech" who="#david">Well, they won’t
+                                again!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_07_pnl_03">
+                            <cbml:balloon type="speech" who="#david">You go ahead and play--I’ll
+                                look around!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Go ahead… Holler if you want
+                                me!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_07_pnl_04">
+                            <cbml:balloon type="speech" who="#samson">Oh-oh… Do I hear
+                                something?</cbml:balloon>
+                            <sound>Crash!</sound>
+                            <cbml:balloon type="speech" who="#david">Help! Help!!</cbml:balloon>
+                            <!-- Do we identify speaker when we don't “know” speaker until a subsequent panel? -->
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_07_pnl_05">
+                            <cbml:balloon type="speech" who="#david">Samson-- <emph rendition="#b"
+                                    >Help!!</emph></cbml:balloon>
+                            <cbml:balloon type="thought" who="#samson">Sounds like David… Wonder
+                                what he’s got into?</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_07_pnl_06">
+                            <cbml:balloon type="speech" who="#samson">It comes from up there… I’d
+                                better look into it!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_07_pnl_07">
+                            <cbml:balloon type="speech" who="#samson">This is the quickest way to
+                                get upstairs!</cbml:balloon>
+                            <sound>Crash!!</sound>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_07_pnl_08">
+                            <cbml:balloon type="speech" who="#david">Hurry-- It’s coming
+                                down!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">I might have known you’d get
+                                into something!</cbml:balloon>
+                            <fw place="right" type="pageNum">5</fw>
+                        </cbml:panel>
+                    </div>
+                    <pb n="8" facs="#pg_08"/>
+                    <div type="pnlGrp">
+                        <cbml:panel facs="#pg_08_pnl_01">
+                            <cbml:balloon type="speech" who="#david">Is that soe?</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">You do pick the darndest
+                                places to take a nap!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_08_pnl_02">
+                            <cbml:balloon type="speech" who="#david">I am myself!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Now I’m beginning to get tired
+                                of these games!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_08_pnl_03">
+                            <cbml:balloon type="speech" who="#samson">There’s going to be a change
+                                in this waterfront beginning now!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">What do you
+                                mean?</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_08_pnl_04">
+                            <cbml:balloon type="speech" who="#david">Yes… Where are you going to put
+                                it?</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samons">Did you say this was right
+                                over the river?</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_08_pnl_05">
+                            <sound>Splash!</sound>
+                            <cbml:balloon type="speech" who="#david">Whee!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">There she goes!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_08_pnl_06">
+                            <cbml:balloon type="speech" who="#david">A man is trying to swim
+                                away--the current is too strong for him!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Might be a good idea to fish
+                                him out!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_08_pnl_07">
+                            <cbml:balloon type="speech" who="#david">I’m right with
+                                you!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Quick… To the bridge--get your
+                                lariat ready!</cbml:balloon>
+                            <fw place="right" type="pageNum">6</fw>
+                        </cbml:panel>
+                    </div>
+                    <pb n="9" facs="#pg_09"/>
+                    <div type="pnlGrp">
+                        <cbml:panel facs="#pg_09_pnl_01">
+                            <cbml:balloon type="speech" who="#samson">Don’t let him get by you,
+                                David!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">I’ve almost got him
+                                now!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon_man">Help!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_09_pnl_02">
+                            <cbml:balloon type="speech" who="#anon_man"><emph rendition="#b">Save
+                                    me!</emph> Don’t- Don’t let me go!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Hold tight!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">I’ve got him!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_09_pnl_03">
+                            <cbml:balloon type="speech" who="#anon_man">I’m hanging on all
+                                right!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Don’t let go of our friend
+                                there!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">We’re here!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_09_pnl_04">
+                            <cbml:balloon type="speech" who="#anon_man">You saved my life--I must
+                                warn you now!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">Just tell us who’s making all
+                                this trouble!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Of what?</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_09_pnl_05">
+                            <cbml:balloon type="speech" who="#anon_man">It is Arpor, High Priest of
+                                Evil… who is behind this… He has sworn to get you! </cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">High Priest of Evil? Sounds
+                                daffy!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_09_pnl_06">
+                            <cbml:balloon type="speech" who="#anon_man">Yes… He and his devotees are
+                                mad… But very dangerous…</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">I believe you!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">Duck, everybody--We’re being
+                                bombed!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_09_pnl_07">
+                            <cbml:balloon type="speech" who="#david"><emph rendition="#b">Look out,
+                                    Samson!</emph></cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">I think I can fix
+                                that!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_09_pnl_08">
+                            <cbml:balloon type="speech" who="#samson">And <choice>
+                                    <sic>thats</sic>
+                                    <corr>that’s</corr>
+                                </choice> the end of you!</cbml:balloon>
+                            <sound>Crash!</sound>
+                            <cbml:balloon type="speech" who="#david">What a shot!</cbml:balloon>
+                            <fw place="right" type="pageNum">7</fw>
+                        </cbml:panel>
+                    </div>
+                    <pb n="10" facs="#pg_10"/>
+                    <div type="panelGrp">
+                        <cbml:panel facs="#pg_10_pnl_01">
+                            <cbml:balloon type="speech" who="#david">Oooh!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon">I’ll do as you
+                                say!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Thank you! Renounce Arbor and
+                                his crazy worship… I’ll protect you!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_10_pnl_02">
+                            <cbml:balloon type="speech" who="#samson">Now I’m going into the
+                                mountains after Arpor!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">Oh… I want to
+                                go!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_10_pnl_03">
+                            <cbml:balloon type="speech" who="#samson">I know I shouldn’t take you,
+                                but you’d come along somehow, anyway!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">That’s right!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_10_pnl_04">
+                            <cbml:balloon type="speech" who="#david">Whew--Is this supposed to be a
+                                path?</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">Arpor’s just making it hard
+                                for his visitors!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_10_pnl_05">
+                            <cbml:balloon type="speech" who="#david">Oh-oh!
+                                Artillery!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">So it is… Don’t let it bother
+                                you!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_10_pnl_06">
+                            <cbml:balloon type="speech" who="#samson">Better change your elevation,
+                                boys!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">Nice jumping,
+                                there!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_10_pnl_07">
+                            <cbml:balloon type="speech" who="#samson">I’ll borrow this for a
+                                minute!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#david">Oh, boy!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon">Oooo!</cbml:balloon>
+                        </cbml:panel>
+                        <cbml:panel facs="#pg_10_pnl_08">
+                            <cbml:balloon type="speech" who="#david">Look at ’em run!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon">Run!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon">What a demon!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#samson">You can try and put these
+                                together after!</cbml:balloon>
+                            <sound>Crash!</sound>
+
+                            <fw place="right" type="pageNum">8</fw>
+                        </cbml:panel>
+                    </div>
+
+
+                    <!-- 
 <div type="pnlGrp">
 	<cbml:panel facs="#pg_06_pnl_01">
 		<cbml:balloon type="speech" who="#"></cbml:balloon>
@@ -697,8 +801,8 @@
 
 CONCATENATE('<zone xml:id="pg_0',$A2,'_pnl_0',$B2,'" ulx="',C2,'" uly="',D2,'" lrx="',E2,'" lry="',F2,'"/>')
                     -->
-					
-<!-- Getting coordinates on iPad:
+
+                    <!-- Getting coordinates on iPad:
 Use Affirm Photo; open "Transform" panel to see coordinates; draw a box on the image and move it around to different panel corners, points, to get coordinates. -->
                 </body>
             </text>
