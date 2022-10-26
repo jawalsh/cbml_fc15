@@ -103,6 +103,9 @@
                     <person xml:id="david">
                         <name>David</name>
                     </person>
+                    <person xml:id="anon">
+                        <name>anonymous</name>
+                    </person>
                 </listPerson>
             </particDesc>
         </profileDesc>
@@ -468,16 +471,16 @@
                     <pb n="5" facs="#pg_05"/>
                     <div type="panelGrp">
                         <cbml:panel facs="#pg_05_pnl_01">
-                            <cbml:balloon type="speech" who="#anon_man01" rendition="#uc">Help …
+                            <cbml:balloon type="speech" who="#anon" rendition="#uc">Help …
                                 help!</cbml:balloon>
                             <cbml:balloon type="speech" who="#samson">See how you like this
                                 treatment!</cbml:balloon>
-                            <cbml:balloon type="speech" who="#anon_man2">Ow!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon">Ow!</cbml:balloon>
                         </cbml:panel>
                         <cbml:panel facs="#pg_05_pnl_02">
                             <cbml:balloon type="speech" who="#samson">But look out for the
                                 bumps!</cbml:balloon>
-                            <cbml:balloon type="speech" who="#anon_man2">Oof!</cbml:balloon>
+                            <cbml:balloon type="speech" who="#anon">Oof!</cbml:balloon>
                             <sound>Crash!</sound>
                         </cbml:panel>
                         <cbml:panel facs="#pg_05_pnl_03">
