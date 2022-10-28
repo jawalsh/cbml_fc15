@@ -201,7 +201,7 @@
             <zone xml:id="pg_10_pnl_04" ulx="1131" uly="870" lrx="2088" lry="1541"/>
             <zone xml:id="pg_10_pnl_05" ulx="142" uly="1545" lrx="1107" lry="2213"/>
             <zone xml:id="pg_10_pnl_06" ulx="1124" uly="1550" lrx="2088" lry="2219"/>
-            <zone xml:id="pg_10_pnl_07" ulx="143" uly="2224" lrx="11021110" lry="2878"/>
+            <zone xml:id="pg_10_pnl_07" ulx="143" uly="2224" lrx="1110" lry="2878"/>
             <zone xml:id="pg_10_pnl_08" ulx="1127" uly="2228" lrx="2089" lry="2883"/>
         </surface>
         <surface xml:id="pg_11">
