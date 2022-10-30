@@ -788,6 +788,7 @@
 		<cbml:balloon type="speech" who="#david">All right, let’s jump!</cbml:balloon>
 	</cbml:panel>
 	<cbml:panel facs="#pg_11_pnl_04">
+		<sound>Bang!</sound>
 		<cbml:balloon type="speech" who="#david">Hey!</cbml:balloon>
 		<cbml:balloon type="speech" who="#samson">Try and grab me, David!</cbml:balloon>
 	</cbml:panel>
@@ -805,6 +806,7 @@
 	<cbml:panel facs="#pg_11_pnl_08">
 		<cbml:balloon type="speech" who="#samson">Why, it must be my pal Arpor, the high priest!</cbml:balloon>
 		<cbml:balloon type="speech" who="#arpor"><emph rendition="#b">Ha!</emph> Fiends--seize him!</cbml:balloon>
+		<fw place="right" type="pageNum">9</fw>
 	</cbml:panel>
 </div>   
 
