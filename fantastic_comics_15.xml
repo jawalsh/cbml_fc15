@@ -150,7 +150,7 @@
             <zone xml:id="pg_05_pnl_07" ulx="161" uly="2198" lrx="1114" lry="2843"/>
             <zone xml:id="pg_05_pnl_08" ulx="1142" uly="2199" lrx="2095" lry="2848"/>
         </surface>
-        <surface xml:id="pg_06">
+        <surface xml:id="pg_11">
             <graphic url="fantastic_comics_015_pg_06.tif"/>
             <zone xml:id="pg_06_pnl_01" ulx="144" uly="174" lrx="1100" lry="817"/>
             <zone xml:id="pg_06_pnl_02" ulx="1125" uly="179" lrx="2086" lry="820"/>
@@ -206,6 +206,14 @@
         </surface>
         <surface xml:id="pg_11">
             <graphic url="fantastic_comics_015_pg_11.tif"/>
+			<zone xml:id="pg_11_pnl_01" ulx="146" uly="172" lrx="1102" lry="820"/>
+<zone xml:id="pg_11_pnl_02" ulx="1120" uly="171" lrx="2092" lry="816"/>
+<zone xml:id="pg_11_pnl_03" ulx="144" uly="841" lrx="1112" lry="1502"/>
+<zone xml:id="pg_11_pnl_04" ulx="1125" uly="840" lrx="2102" lry="1499"/>
+<zone xml:id="pg_11_pnl_05" ulx="146" uly="1514" lrx="1112" lry="2176"/>
+<zone xml:id="pg_11_pnl_06" ulx="1131" uly="1517" lrx="2105" lry="2169"/>
+<zone xml:id="pg_11_pnl_07" ulx="151" uly="2194" lrx="1117" lry="2841"/>
+<zone xml:id="pg_11_pnl_08" ulx="1136" uly="2188" lrx="2115" lry="2838"/>
         </surface>
         <surface xml:id="pg_12">
             <graphic url="fantastic_comics_015_pg_12.tif"/>
@@ -765,6 +773,40 @@
                             <fw place="right" type="pageNum">8</fw>
                         </cbml:panel>
                     </div>
+					<pb n="11" facs="#pg_11"/>
+					<div type="pnlGrp">
+	<cbml:panel facs="#pg_11_pnl_01">
+		<cbml:balloon type="speech" who="#samson">Let ’em go! They will warn the boss!</cbml:balloon>
+		<cbml:balloon type="speech" who="#david">This is easier going, anyway!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_11_pnl_02">
+		<cbml:balloon type="speech" who="#david">They’ve cut the bridge, now what?</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">Looks like we’ll have to jump it!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_11_pnl_03">
+		<cbml:balloon type="speech" who="#anon">Jump? You mean you’ll fall!</cbml:balloon>
+		<cbml:balloon type="speech" who="#david">All right, let’s jump!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_11_pnl_04">
+		<cbml:balloon type="speech" who="#david">Hey!</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">Try and grab me, David!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_11_pnl_05">
+		<cbml:balloon type="speech" who="#david">--What happened?</cbml:balloon>
+		<cbml:balloon type="speech" who="#samson">You lit on me--Good luck neither of us is hurt!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_11_pnl_06">
+<cbml:balloon type="speech" who="#samson">Hide and follow us… I’m going to pretend I’m stunned…</cbml:balloon>
+<cbml:balloon type="speech" who="#david">I get it!</cbml:balloon>	</cbml:panel>
+	<cbml:panel facs="#pg_11_pnl_07">
+		<cbml:balloon type="speech" who="#samson"><emph rendition="#b">Oh…</emph> Where am I?</cbml:balloon>
+		<cbml:balloon type="speech" who="#arpor">The sacrifice Kali… The sacrifice!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_11_pnl_08">
+		<cbml:balloon type="speech" who="#samson">Why, it must be my pal Arpor, the high priest!</cbml:balloon>
+		<cbml:balloon type="speech" who="#arpor"><emph rendition="#b">Ha!</emph> Fiends--seize him!</cbml:balloon>
+	</cbml:panel>
+</div>   
 
 
                     <!-- 
