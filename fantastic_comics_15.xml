@@ -150,7 +150,7 @@
             <zone xml:id="pg_05_pnl_07" ulx="161" uly="2198" lrx="1114" lry="2843"/>
             <zone xml:id="pg_05_pnl_08" ulx="1142" uly="2199" lrx="2095" lry="2848"/>
         </surface>
-        <surface xml:id="pg_11">
+        <surface xml:id="pg_06">
             <graphic url="fantastic_comics_015_pg_06.tif"/>
             <zone xml:id="pg_06_pnl_01" ulx="144" uly="174" lrx="1100" lry="817"/>
             <zone xml:id="pg_06_pnl_02" ulx="1125" uly="179" lrx="2086" lry="820"/>
