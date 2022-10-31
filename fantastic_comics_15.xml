@@ -222,7 +222,7 @@
             <zone xml:id="pg_12_pnl_03" ulx="142" uly="843" lrx="1106" lry="1512"/>
             <zone xml:id="pg_12_pnl_04" ulx="1126" uly="844" lrx="2089" lry="1515"/>
             <zone xml:id="pg_12_pnl_05" ulx="139" uly="1515" lrx="2090" lry="2193"/>
-            <zone xml:id="pg_12_pnl_06" ulx="129" uly="2987" lrx="1095" lry="2852"/>
+            <zone xml:id="pg_12_pnl_06" ulx="130" uly="2190" lrx="1095" lry="2852"/>
             <zone xml:id="pg_12_pnl_07" ulx="1117" uly="2196" lrx="2083" lry="2859"/>
         </surface>
         <surface xml:id="pg_13">
