@@ -235,7 +235,7 @@
 	<xsl:template match="pb">
 		<xsl:param name="facs-id" select="(substring-after(@facs, '#'))"/>
 		<div class="page">
-		<h2 class="page"><xsl:value-of select="concat('Page ',@n)"/></h2>
+		<!-- <h2 class="page"><xsl:value-of select="concat('Page ',@n)"/></h2> -->
 		 <a>
 
             <xsl:attribute name="href">
