@@ -40,6 +40,13 @@ f
 	background-color: white;
 }
 
+fw.top {
+  margin: 0;
+	padding: 1em .25em .25em .25em;
+	border-bottom: 1px solid black;
+	background-color: white;  
+}
+
 
 .balloon {
 	background-color: white;
