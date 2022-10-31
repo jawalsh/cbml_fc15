@@ -33,14 +33,14 @@ f
 	background-color: white;
 }
 
-.fw {
+.fw.right {
 	margin: 0;
 	padding: .25em;
 	border: 1px solid black;
 	background-color: white;
 }
 
-.top {
+.fw.top {
     margin: 1em 0 0 0;
 	padding: .25em;
 	border-bottom: 1px solid black;
