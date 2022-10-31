@@ -401,6 +401,7 @@
             <text xml:id="fantastic_comics_15_samson_and_david">
                 <body>
                     <pb n="3" facs="#pg_03"/>
+                    <fw place="top" rendition="#uc">Fantastic Comics Page 1</fw>
                     <div type="panelGrp">
                         <cbml:panel facs="#pg_03_pnl_01">
                             <head><title rendition="#uc">Samson and David</title></head>
@@ -437,6 +438,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="4" facs="#pg_04"/>
+                    <fw place="top" rendition="#uc">Page 2 Fantastic Comics</fw>
                     <div type="panelGrp">
                         <cbml:panel facs="#pg_04_pnl_01">
                             <cbml:balloon type="speech" who="#samson" rendition="#uc">That gas is
@@ -484,6 +486,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="5" facs="#pg_05"/>
+                    <fw place="top" rendition="#uc">Fantastic Comics Page 3</fw>
                     <div type="panelGrp">
                         <cbml:panel facs="#pg_05_pnl_01">
                             <cbml:balloon type="speech" who="#anon" rendition="#uc">Help …
@@ -530,6 +533,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="6" facs="#pg_06"/>
+                    <fw place="top" rendition="#uc">Page 4 Fantastic Comics</fw>
                     <div type="pnlGrp">
                         <cbml:panel facs="#pg_06_pnl_01">
                             <cbml:balloon type="speech" who="#samson"> It looks as though we’re not
@@ -575,6 +579,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="7" facs="#pg_07"/>
+                    <fw place="top" rendition="#uc">Fantastic Comics Page 5</fw>
                     <div type="pnlGrp">
                         <cbml:panel facs="#pg_07_pnl_01">
                             <cbml:balloon type="speech" who="#samson">That’s handy--Just stand aside
@@ -625,6 +630,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="8" facs="#pg_08"/>
+                    <fw place="top" rendition="#uc">Page 6 Fantastic Comics</fw>
                     <div type="pnlGrp">
                         <cbml:panel facs="#pg_08_pnl_01">
                             <cbml:balloon type="speech" who="#david">Is that soe?</cbml:balloon>
@@ -668,6 +674,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="9" facs="#pg_09"/>
+                    <fw place="top" rendition="#uc">Fantastic Comics Page 7</fw>
                     <div type="pnlGrp">
                         <cbml:panel facs="#pg_09_pnl_01">
                             <cbml:balloon type="speech" who="#samson">Don’t let him get by you,
@@ -726,6 +733,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="10" facs="#pg_10"/>
+                    <fw place="top" rendition="#uc">Page 8 Fantastic Comics</fw>
                     <div type="panelGrp">
                         <cbml:panel facs="#pg_10_pnl_01">
                             <cbml:balloon type="speech" who="#david">Oooh!</cbml:balloon>
@@ -781,6 +789,7 @@
                         </cbml:panel>
                     </div>
                     <pb n="11" facs="#pg_11"/>
+                    <fw place="top" rendition="#uc">Fantastic Comics Page 9</fw>
                     <div type="pnlGrp">
                         <cbml:panel facs="#pg_11_pnl_01">
                             <cbml:balloon type="speech" who="#samson">Let ’em go! They will warn the
@@ -830,7 +839,8 @@
                             <fw place="right" type="pageNum">9</fw>
                         </cbml:panel>
                     </div>
-                    <pb n="" facs="#pg_12"/>
+                    <pb n="12" facs="#pg_12"/>
+                    <fw place="top" rendition="#uc">Fantastic Comics Page 10</fw>
                     <div type="pnlGrp">
                         <cbml:panel facs="#pg_12_pnl_01">
                             <cbml:balloon type="speech" who="#samson">Who’s seizing
