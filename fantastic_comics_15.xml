@@ -227,6 +227,14 @@
         </surface>
         <surface xml:id="pg_13">
             <graphic url="fantastic_comics_015_pg_13.tif"/>
+			<zone xml:id="pg_13_pnl_01" ulx="134" uly="169" lrx="1096" lry="831"/>
+<zone xml:id="pg_13_pnl_02" ulx="1115" uly="180" lrx="2083" lry="835"/>
+<zone xml:id="pg_13_pnl_03" ulx="132" uly="841" lrx="1092" lry="1497"/>
+<zone xml:id="pg_13_pnl_04" ulx="1119" uly="845" lrx="2081" lry="1509"/>
+<zone xml:id="pg_13_pnl_05" ulx="135" uly="1519" lrx="1098" lry="2173"/>
+<zone xml:id="pg_13_pnl_06" ulx="1117" uly="1520" lrx="2081" lry="2184"/>
+<zone xml:id="pg_13_pnl_07" ulx="134" uly="2191" lrx="1092" lry="2839"/>
+<zone xml:id="pg_13_pnl_08" ulx="1117" uly="2198" lrx="2083" lry="2855"/>
         </surface>
         <surface xml:id="pg_14">
             <graphic url="fantastic_comics_015_pg_14.tif"/>
@@ -891,33 +899,71 @@
                             <fw place="right" type="pageNum">10</fw>
                         </cbml:panel>
                     </div>
-
+<pb n="13" facs="#pg_13"/>
+<fw place="top" rendition="#uc">Fantastic Comics Page 11</fw>
+					<div type="pnlGrp">
+	<cbml:panel facs="#pg_13_pnl_01">
+<cbml:balloon type="speech" who="#arpor"><emph rendition="#b">Die…</emph> Infidel!</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Now <choice><sic>what s</sic><corr>what’s</corr></choice> this guy up to?</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_13_pnl_02">
+<cbml:balloon type="speech" who="#arpor">I shall avenge Kali…</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Lightning gun, huh?</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_13_pnl_03">
+<cbml:balloon type="speech" who="#samson"><emph rendition="#b">Ohhh!</emph></cbml:balloon>
+<cbml:balloon type="speech" who="#arpor"><emph rendition="#b">Ha-ha!</emph> That got him!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_13_pnl_04">
+<cbml:balloon type="speech" who="#samson">I can’t move!</cbml:balloon>
+<cbml:balloon type="speech" who="#arpor">One more will finish him off!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_13_pnl_05">
+<cbml:balloon type="speech" who="#david">You won’t be firing that again, you rat!</cbml:balloon>
+<cbml:balloon type="speech" who="#arpor">Just to make sure of hitting him----</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Must--- get up---</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_13_pnl_06">
+<cbml:balloon type="speech" who="#david">How do you like that?</cbml:balloon>
+<cbml:balloon type="speech" who="#arpor">Glug!</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">I must destroy that gun!</cbml:balloon>
+    </cbml:panel>
+	<cbml:panel facs="#pg_13_pnl_07">
+<cbml:balloon type="speech" who="#samson">This thing’s <choice><sic>to</sic><corr>too</corr></choice> dangerous to leave around!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_13_pnl_08">
+<cbml:balloon type="speech" who="#arpor">Fiends!</cbml:balloon>
+<cbml:balloon type="speech" who="#david"><emph rendition="#b">Ha! Ha!</emph></cbml:balloon>
+<cbml:balloon type="speech" who="#samson">This seems to be the local dumping grounds!</cbml:balloon>
+<fw place="right" type="pageNum">11</fw>
+	</cbml:panel>
+</div>  
 
                     <!-- 
 <pb n="" facs="#pg_"/>
 					<div type="pnlGrp">
-	<cbml:panel facs="#pg_11_pnl_01">
+	<cbml:panel facs="#pg_13_pnl_01">
 
 	</cbml:panel>
-	<cbml:panel facs="#pg_11_pnl_02">
+	<cbml:panel facs="#pg_13_pnl_02">
 
 	</cbml:panel>
-	<cbml:panel facs="#pg_11_pnl_03">
+	<cbml:panel facs="#pg_13_pnl_03">
 
 	</cbml:panel>
-	<cbml:panel facs="#pg_11_pnl_04">
+	<cbml:panel facs="#pg_13_pnl_04">
 
 	</cbml:panel>
-	<cbml:panel facs="#pg_11_pnl_05">
+	<cbml:panel facs="#pg_13_pnl_05">
 
 	</cbml:panel>
-	<cbml:panel facs="#pg_11_pnl_06">
+	<cbml:panel facs="#pg_13_pnl_06">
 
     </cbml:panel>
-	<cbml:panel facs="#pg_11_pnl_07">
+	<cbml:panel facs="#pg_13_pnl_07">
 
 	</cbml:panel>
-	<cbml:panel facs="#pg_11_pnl_08">
+	<cbml:panel facs="#pg_13_pnl_08">
 
 	</cbml:panel>
 </div>  
