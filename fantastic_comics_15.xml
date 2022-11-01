@@ -238,6 +238,13 @@
         </surface>
         <surface xml:id="pg_14">
             <graphic url="fantastic_comics_015_pg_14.tif"/>
+			<zone xml:id="pg_14_pnl_01" ulx="148" uly="184" lrx="1108" lry="831"/>
+<zone xml:id="pg_14_pnl_02" ulx="1134" uly="182" lrx="2099" lry="828"/>
+<zone xml:id="pg_14_pnl_03" ulx="149" uly="846" lrx="1119" lry="1503"/>
+<zone xml:id="pg_14_pnl_04" ulx="1332" uly="845" lrx="2100" lry="1503"/>
+<zone xml:id="pg_14_pnl_05" ulx="149" uly="1525" lrx="2103" lry="2183"/>
+<zone xml:id="pg_14_pnl_06" ulx="154" uly="2198" lrx="1119" lry="2843"/>
+<zone xml:id="pg_14_pnl_07" ulx="1137" uly="2199" lrx="2101" lry="2855"/>
         </surface>
         <surface xml:id="pg_15">
             <graphic url="fantastic_comics_015_pg_15.tif"/>
@@ -936,6 +943,40 @@
 <cbml:balloon type="speech" who="#david"><emph rendition="#b">Ha! Ha!</emph></cbml:balloon>
 <cbml:balloon type="speech" who="#samson">This seems to be the local dumping grounds!</cbml:balloon>
 <fw place="right" type="pageNum">11</fw>
+	</cbml:panel>
+</div>  
+<pb n="" facs="#pg_14"/>
+<fw place="top" rendition="#uc">Page 12 Fantastic Comics</fw>
+					<div type="pnlGrp">
+	<cbml:panel facs="#pg_14_pnl_01">
+<cbml:balloon type="speech" who="#samson">I think we’d better follow this cable and find his source of supply!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">Yes! Must be a generator around somewhere!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_14_pnl_02">
+<cbml:balloon type="speech" who="#samson">There it is--A whole power plant!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">Capable of generating plenty of power too, I’ll bet!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_14_pnl_03">
+<cbml:balloon type="speech" who="#samson">They shouldn’t have bothered to lock this up!</cbml:balloon>
+<sound>Crash!</sound>
+<cbml:balloon type="speech" who="#david">It isn’t doing them much good!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_14_pnl_04">
+<cbml:balloon type="speech" who="#samson">I hate to smash such a neat set-up!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">I don’t!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_14_pnl_05">
+<sound>Splash!</sound>
+<cbml:balloon type="speech" who="#david"><emph rendition="#b">Boy…</emph> Some splash!</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">I guess this is the best way to eliminate this!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_14_pnl_06">
+<cbml:balloon type="speech" who="#samson">Just to settle the whole problem at once!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">Look out for the flood!</cbml:balloon>
+    </cbml:panel>
+	<cbml:panel facs="#pg_14_pnl_07">
+<cbml:balloon type="speech" who="#samson">Now, let’s go back and pick up Arpor--</cbml:balloon>
+<cbml:balloon type="speech" who="#david">Make it snappy—or you’ll get wet!</cbml:balloon>
 	</cbml:panel>
 </div>  
 
