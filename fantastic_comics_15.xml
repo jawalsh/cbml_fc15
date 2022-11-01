@@ -977,6 +977,7 @@
 	<cbml:panel facs="#pg_14_pnl_07">
 <cbml:balloon type="speech" who="#samson">Now, let’s go back and pick up Arpor--</cbml:balloon>
 <cbml:balloon type="speech" who="#david">Make it snappy—or you’ll get wet!</cbml:balloon>
+<fw place="right" type="pageNum">12</fw>
 	</cbml:panel>
 </div>  
 
