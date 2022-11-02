@@ -38,19 +38,15 @@
         <xsl:result-document href="#teiDocInfo">
 
             <h2>document information</h2>
-            <ul>
-                <li>
-                    <span class="label">title: </span>
+            <h3>
                     <xsl:value-of
 					select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1]"/>
-                </li>
+			</h3>
+			<h4>Edited by
                 <xsl:for-each select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/editor">
-                    <li>
-                        <span class="label">editor: </span>
-                        <xsl:value-of select="normalize-space(.)"/>
-                    </li>
+                        <xsl:value-of select="normalize-space(.)"/>                    
                 </xsl:for-each>
-            </ul>
+            </h4>
             <div>
                 <h3>source information</h3>
                 <xsl:apply-templates select="/TEI/teiHeader[1]/fileDesc[1]/sourceDesc[1]"/>
@@ -199,6 +195,17 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
     </xsl:template>
+    
+    
+    
+    <xsl:template match="cbml:panel">
+        <xsl:element name="div">
+            <xsl:call-template name="add-class">
+            	<xsl:with-param name="class" select="'grid'"/>
+           	</xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:element>
+    </xsl:template>
 
     <xsl:template match="@who">
 		<xsl:param name="person-id" select="substring-after(., '#')"/>
@@ -292,6 +299,7 @@
     </xsl:template>
 
     <xsl:template name="add-class">
+    	<xsl:param name="class"/>
         <xsl:attribute name="class">
             <xsl:value-of select="concat(local-name(.), ' ')"/>
             <xsl:if test="@type">
@@ -300,11 +308,15 @@
             <xsl:if test="@place">
                 <xsl:value-of select="concat(@place, ' ')"/>
             </xsl:if>
+            <xsl:if test="$class != ''">
+            	<xsl:value-of select="concat($class, ' ')"/>
+           	</xsl:if>
             <xsl:if test="@rendition">
                 <xsl:call-template name="renditionToClassNames">
                     <xsl:with-param name="string" select="@rendition"/>
                 </xsl:call-template>
             </xsl:if>
+
         </xsl:attribute>
     </xsl:template>
 
