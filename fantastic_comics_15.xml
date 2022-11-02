@@ -248,6 +248,14 @@
         </surface>
         <surface xml:id="pg_15">
             <graphic url="fantastic_comics_015_pg_15.tif"/>
+			<zone xml:id="pg_15_pnl_01" ulx="133" uly="191" lrx="1094" lry="842"/>
+<zone xml:id="pg_15_pnl_02" ulx="1117" uly="199" lrx="2080" lry="850"/>
+<zone xml:id="pg_15_pnl_03" ulx="128" uly="857" lrx="1092" lry="1517"/>
+<zone xml:id="pg_15_pnl_04" ulx="1121" uly="863" lrx="2080" lry="1522"/>
+<zone xml:id="pg_15_pnl_05" ulx="130" uly="1529" lrx="1091" lry="2196"/>
+<zone xml:id="pg_15_pnl_06" ulx="1115" uly="1541" lrx="2083" lry="2197"/>
+<zone xml:id="pg_15_pnl_07" ulx="128" uly="2210" lrx="1095" lry="2865"/>
+<zone xml:id="pg_15_pnl_08" ulx="1113" uly="2211" lrx="2081" lry="2866"/>
         </surface>
         <surface xml:id="pg_16">
             <graphic url="fantastic_comics_015_pg_16.tif"/>
