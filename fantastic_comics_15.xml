@@ -1016,7 +1016,7 @@
 	<cbml:panel facs="#pg_15_pnl_08">
 <cbml:balloon type="speech" who="#david">Think we can find a nice safe cage for this bird?</cbml:balloon>
 <cbml:balloon type="speech" who="#samson">Yes… We can hang him up on so many charges he’ll never get out again!</cbml:balloon>
-<cbml:caption>Follow the exploits of the mighty Samson--in the next issue!
+<cbml:caption>Follow the exploits of the mighty Samson--in the next issue!</cbml:caption>
 <fw type="pageNum" place="right">13</fw>
 </cbml:panel>
 </div>  
