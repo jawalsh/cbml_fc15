@@ -979,10 +979,53 @@
 <cbml:balloon type="speech" who="#david">Make it snappy—or you’ll get wet!</cbml:balloon>
 <fw place="right" type="pageNum">12</fw>
 	</cbml:panel>
+</div> 
+<pb n="" facs="#pg_15"/>
+<fw rendition="#uc" place="top">Fantastic Comics Page 13</fw>
+					<div type="pnlGrp">
+	<cbml:panel facs="#pg_15_pnl_01">
+<cbml:balloon type="speech" who="#samson"><emph rendition="#b">Gone again?</emph></cbml:balloon>
+<cbml:balloon type="speech" who="#david">And I thought I had him tied up good and tight!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_15_pnl_02">
+<cbml:balloon type="speech" who="#samson">Aha!</cbml:balloon>
+<cbml:balloon type="speech" who="#arpor">Keep back… You won’t live to touch me again!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">There he is!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_15_pnl_03">
+<cbml:balloon type="speech" who="#arpor">Arrr! I’ll get you yet!</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Not this season!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_15_pnl_04">
+<cbml:balloon type="speech" who="#arpor"><emph rendition="#b">Oof!</emph></cbml:balloon>
+<cbml:balloon type="speech" who="#samson"><emph rendition="#b">Good!</emph> Out of the way there!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_15_pnl_05">
+<cbml:balloon type="speech" who="#samson">Look out, now--- This stuff is hot!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">All right I’m out of the way!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_15_pnl_06">
+<cbml:balloon type="speech" who="#samson">Well, get an egg and fry it---</cbml:balloon>
+<cbml:balloon type="speech" who="#david">What a waste of good cooking material!</cbml:balloon>
+    </cbml:panel>
+	<cbml:panel facs="#pg_15_pnl_07">
+<cbml:balloon type="speech" who="#samson">And this is the end of this cult!</cbml:balloon>
+<cbml:balloon type="speech" who="#david">Good thing too!</cbml:balloon>
+<cbml:balloon type="speech" who="#arpor">I’ve had enough!</cbml:balloon>
+	</cbml:panel>
+	<cbml:panel facs="#pg_15_pnl_08">
+<cbml:balloon type="speech" who="#david">Think we can find a nice safe cage for this bird?</cbml:balloon>
+<cbml:balloon type="speech" who="#samson">Yes… We can hang him up on so many charges he’ll never get out again!</cbml:balloon>
+<cbml:caption>Follow the exploits of the mighty Samson--in the next issue!
+<fw type="pageNum" place="right">13</fw>
+</cbml:panel>
 </div>  
+
+<fw rendition="#center" place="bottom">Fantastic Comics is on sale the 10th of every month</fw>
 
                     <!-- 
 <pb n="" facs="#pg_"/>
+<fw type="pageNum" place="top"></fw>
 					<div type="pnlGrp">
 	<cbml:panel facs="#pg_13_pnl_01">
 
