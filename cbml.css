@@ -12,7 +12,7 @@ body {
 
 
 
-img.facs-page { border: 1px solid black; margin: .5em;}
+img.facs-page { border: 1px solid black; margin-block-start: .5em;}
 
 /* 
 .caption,
