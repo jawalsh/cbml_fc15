@@ -201,7 +201,7 @@
     <xsl:template match="cbml:panel">
         <xsl:element name="div">
             <xsl:call-template name="add-class">
-            	<xsl:with-param name="class" select="'grid'"/>
+            	<xsl:with-param name="class" select="''"/>
            	</xsl:call-template>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>        
