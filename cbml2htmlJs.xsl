@@ -204,14 +204,26 @@
             	<xsl:with-param name="class" select="'grid'"/>
            	</xsl:call-template>
             <xsl:apply-templates select="@* | node()"/>
+        </xsl:element>        
+    </xsl:template>
+    
+    <xsl:template match="cbml:balloon">
+        <xsl:element name="div">
+            <xsl:call-template name="add-class">
+                <xsl:with-param name="class" select="'box'"/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="@who">
 		<xsl:param name="person-id" select="substring-after(., '#')"/>
-        <div class="who">
+        <strong>
+            <xsl:call-template name="add-class">
+                <xsl:with-param name="class" select="'who block titlebar'"/>
+            </xsl:call-template>
             <xsl:value-of select="/TEI/teiHeader/profileDesc/particDesc/listPerson/person[@xml:id = $person-id]/name"/>
-        </div>
+        </strong>
     </xsl:template>
 
     <xsl:template match="cbml:panel/@facs">
