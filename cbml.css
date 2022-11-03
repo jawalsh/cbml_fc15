@@ -1,13 +1,17 @@
+/* 
 body {
 	font-size: 16px;
 	font-family: "helvetical neue", "helvetica", sans-serif;
 	margin: 4em;
 }
+
+
 .panel {
 	
 	max-width: 500px;
 	background-color: #f1f1f1;
 }
+
 
 .caption,
 .panel,
@@ -17,7 +21,8 @@ body {
 	margin: 1em;
 	padding: 1em;
 }
-f
+
+
 .panel img { border: 1px solid black;}
 
 .caption,
@@ -27,7 +32,6 @@ f
 
 .sound {
 	border: 4px double #89072f;
-/*	border-bottom: 3px double #89072f; */
 	margin: 1em;
 	padding: 1em;
 	background-color: white;
@@ -46,6 +50,7 @@ f
 	border-bottom: 1px solid black;
 	background-color: white;  
 }
+ 
 
 
 
@@ -70,3 +75,4 @@ f
 	float: right;
 	clear: both;
 }
+ */
