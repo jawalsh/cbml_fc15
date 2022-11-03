@@ -216,7 +216,7 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="cbml:caption|byline">
+    <xsl:template match="cbml:caption|byline|sound">
         <xsl:element name="div">
             <xsl:call-template name="add-class">
                 <xsl:with-param name="class" select="'box'"/>
