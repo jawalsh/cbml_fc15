@@ -5,21 +5,16 @@ body {
 
 .panel {
 	max-width: 500px;
-}
-
-/* 
-.caption,
-.panel,
-.balloon,
-.byline {
 	border: 2px solid black;
 	margin: 1em;
 	padding: 1em;
 }
 
 
-.panel img { border: 1px solid black;}
 
+img { border: 1px solid black; margin: .5em;}
+
+/* 
 .caption,
 .byline {
 	background-color: #fcf483;

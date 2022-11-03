@@ -201,13 +201,31 @@
     <xsl:template match="cbml:panel">
         <xsl:element name="div">
             <xsl:call-template name="add-class">
-            	<xsl:with-param name="class" select="'airy'"/>
+            	<xsl:with-param name="class" select="''"/>
            	</xsl:call-template>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>        
     </xsl:template>
     
     <xsl:template match="cbml:balloon">
+        <xsl:element name="div">
+            <xsl:call-template name="add-class">
+                <xsl:with-param name="class" select="'box'"/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="cbml:caption|byline">
+        <xsl:element name="div">
+            <xsl:call-template name="add-class">
+                <xsl:with-param name="class" select="'box'"/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="speech">
         <xsl:element name="div">
             <xsl:call-template name="add-class">
                 <xsl:with-param name="class" select="'box'"/>
