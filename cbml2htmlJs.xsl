@@ -190,12 +190,19 @@
     -->
 
     <xsl:template match="*">
-        <xsl:element name="div">
+        <xsl:element name="span">
             <xsl:call-template name="add-class"/>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
     </xsl:template>
     
+	<!-- block elements -->
+	<xsl:template match="div|p|head">
+        <xsl:element name="span">
+            <xsl:call-template name="add-class"/>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:element>
+		</xsl:template>
     
     
     <xsl:template match="cbml:panel">
