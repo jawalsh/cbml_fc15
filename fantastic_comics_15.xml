@@ -428,7 +428,7 @@
 </p>
 <p>The anthology title includes x features. With the exception of the two-page text story <title level="a">The Vampire of Hastings House</title>, the features lack story-specific titles and simply have titles that correspond to the names of the main characters.
 	<list>
-		<item><title level="a">Samson</item>
+		<item><title level="a">Samson</title></item>
 		<item><title level="a">Flip Falcon</title></item>
 		<item><title level="a">Yank Wilson</title></item>
 		<item><title level="a">Space Smith</title></item>
@@ -437,6 +437,7 @@
 		<item><title level="a">Captain Kidd</title></item>
 		<item><title level="a">Stardust</title></item>
 		<item><title level="a">Sub Saunders</title></item>
+	</list>
 	</p>
 	</div>
 	</front>
