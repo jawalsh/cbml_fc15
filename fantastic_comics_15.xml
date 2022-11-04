@@ -417,13 +417,7 @@
 
     <text>
         <front>
-            <pb n="1" facs="#pg_01"/>
-            <pb n="2" facs="#pg_02"/>
-        </front>
-        <group>
-            <text xml:id="fantastic_comics_15_samson_and_david">
-<front>
-	<div type="commentary">
+        <div type="commentary">
 		<p><title>Fantastic Comics</title> #15 was published by <orgName>Fox Publications, Inc.</orgName> with a cover date of <date when="1941-02">February 1941</date>, with an on-sale date of <date when="1940-12-10">12 December 1940</date>.
 </p>
 <p>The anthology title includes x features. With the exception of the two-page text story <title level="a">The Vampire of Hastings House</title>, the features lack story-specific titles and simply have titles that correspond to the names of the main characters.
@@ -440,8 +434,11 @@
 	</list>
 	</p>
 	</div>
-	</front>
-		
+            <pb n="1" facs="#pg_01"/>
+            <pb n="2" facs="#pg_02"/>
+        </front>
+        <group>
+            <text xml:id="fantastic_comics_15_samson_and_david">
                 <body>
                     <pb n="3" facs="#pg_03"/>
                     <fw place="top" rendition="#uc">Fantastic Comics Page 1</fw>
