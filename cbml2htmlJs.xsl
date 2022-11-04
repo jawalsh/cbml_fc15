@@ -37,18 +37,16 @@
     <xsl:template name="docInfo">
         <xsl:result-document href="#teiDocInfo">
 
-            <h2>document information</h2>
-            <h3>
+		<h1>
                     <xsl:value-of
-					select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1]"/>
-			</h3>
-			<h4>Edited by
+					select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1]"/></h1>
+					<p>Edited by
                 <xsl:for-each select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/editor">
                         <xsl:value-of select="normalize-space(.)"/>                    
                 </xsl:for-each>
-            </h4>
+            </p>
             <div>
-                <h3>source information</h3>
+                <h2>source information</h2>
                 <xsl:apply-templates select="/TEI/teiHeader[1]/fileDesc[1]/sourceDesc[1]"/>
             </div>
         </xsl:result-document>
