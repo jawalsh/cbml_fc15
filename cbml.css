@@ -1,30 +1,18 @@
 @import (less) "missing.min.css";
 
-body {
-	margin: 4em;
-}
-
-
-.panel {
-	.box();
+>>>>>>>-ours:css/cbml.l
+r: 2px s>>>>>>>+theirs:cbml.css
+;
+	padding: 1em;
 } 
 
 .p {
-margin-block:var(--gap);
+display: block;
 }
 
 .list {
-	display:block;
-	padding-inline-start:var(--rhythm)
-}
-
-.list .list {
-	display:block;
-	padding-inline-start:var(--gap)	
-}
-
-.panel,.panelGrp {
-	.box();
+display: block;
+margin-left:1.2em;
 }
 
 .item {
