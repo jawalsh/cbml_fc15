@@ -1,22 +1,30 @@
+@import "missing.min.css";
+
 body {
 	margin: 4em;
 }
 
 
 .panel {
-	max-width: 500px;
-	border: 2px solid black;
-	margin: 1em;
-	padding: 1em;
+	.box();
 } 
 
 .p {
-display: block;
+margin-block:var(--gap);
 }
 
 .list {
-display: block;
-margin-left:1.2em;
+	display:block;
+	padding-inline-start:var(--rhythm)
+}
+
+.list .list {
+	display:block;
+	padding-inline-start:var(--gap)	
+}
+
+.panel,.panelGrp {
+	.box();
 }
 
 .item {
