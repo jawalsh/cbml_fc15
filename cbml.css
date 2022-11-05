@@ -1,8 +1,12 @@
-@import (less) "missing.min.css";
+body {
+	margin: 4em;
+}
 
->>>>>>>-ours:css/cbml.l
-r: 2px s>>>>>>>+theirs:cbml.css
-;
+
+.panel {
+	max-width: 500px;
+	border: 2px solid black;
+	margin: 1em;
 	padding: 1em;
 } 
 
