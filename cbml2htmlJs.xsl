@@ -201,20 +201,12 @@
 	</div>        
     </xsl:template>
 	
-	<xsl:template match="sound">
+	<xsl:template match="sound" priority="99">
 		<div class="callout">
 		<xsl:call-template name="add-class"/>
             <xsl:apply-templates select="node()"/>
     	</div>
 	</xsl:template>
-    
-    
-    <xsl:template match="speech">
-        <xsl:element name="div">
-            <xsl:call-template name="add-class"/>
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:element>
-    </xsl:template>
 
     <xsl:template match="@who">
 		<xsl:param name="person-id" select="substring-after(., '#')"/>
