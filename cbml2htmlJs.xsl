@@ -189,11 +189,14 @@
 	
 	<xsl:template match="cbml:balloon|cbml:caption|byline">
 		<div class="card">
-		<xsl:call-template name="add-class">
+			<xsl:call-template name="add-class">
             	<xsl:with-param name="class">
-				<xsl:if test="local-name()='caption'">
-				<xsl:value-of select="'text-bg-warning'"/>
-				</xsl:if>
+				<xsl:choose>
+				<xsl:when test="local-name()='caption'">
+				<xsl:value-of select="'card text-bg-warning'"/>
+				</xsl:when>
+				<xsl:otherwise>
+			<xsl:value-of select="'card'"/>
 				</xsl:with-param>
 				</xsl:call-template>
 		<xsl:if test="@who">
@@ -207,7 +210,9 @@
 	
 	<xsl:template match="sound" priority="99">
 		<div class="callout">
-		<xsl:call-template name="add-class"/>
+		<xsl:call-template name="add-class">
+		<xsl:with-param name="class" select="callout"/>
+		</xsl:call-template>
             <xsl:apply-templates select="node()"/>
     	</div>
 	</xsl:template>
