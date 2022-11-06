@@ -233,7 +233,7 @@
                 </xsl:apply-templates>
             </xsl:attribute>
 
-            <img class="panel-thumb">
+            <img class="panel-thumb mx-auto img-fluid">
                 <xsl:attribute name="src">
                     <xsl:apply-templates select="/TEI/facsimile/surface/zone[@xml:id = $zone-id]"
                         mode="zone-link">
