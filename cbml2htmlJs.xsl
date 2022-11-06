@@ -203,9 +203,7 @@
 	
 	<xsl:template match="sound">
 		<div class="callout">
-			<xsl:call-template name="add-class">
-            	<xsl:with-param name="class" select="'card-body'"/>
-           	</xsl:call-template>
+		<xsl:call-template name="add-class"/>
             <xsl:apply-templates select="node()"/>
     	</div>
 	</xsl:template>
