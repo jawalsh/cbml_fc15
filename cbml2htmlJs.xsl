@@ -189,14 +189,18 @@
 	
 	<xsl:template match="cbml:balloon|cbml:caption|byline">
 		<div class="card">
-			<xsl:if test="@who">
+		<xsl:call-template name="add-class">
+            	<xsl:with-param name="class">
+				<xsl:if test="local-name()='caption'">
+				<xsl:value-of select="'text-bg-warning'"/>
+				</xsl:if>
+				</xsl:with-param>
+				</xsl:call-template>
+		<xsl:if test="@who">
 			<div class="card-header"><xsl:apply-templates select="@who"/></div>
 		</xsl:if>
-		<div>
-            <xsl:call-template name="add-class">
-            	<xsl:with-param name="class" select="'card-body'"/>
-           	</xsl:call-template>
-            <xsl:apply-templates select="node()"/>
+		<div class="card-body">
+			<xsl:apply-templates select="node()"/>
     </div>
 	</div>        
     </xsl:template>
