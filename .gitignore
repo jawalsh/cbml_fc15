@@ -6,6 +6,9 @@ bin-release/
 
 # Other files and folders
 .settings/
+css/
+package.json
+package-lock.json
 
 # Executables
 *.swf
