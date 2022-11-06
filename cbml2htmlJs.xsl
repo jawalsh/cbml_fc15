@@ -177,7 +177,7 @@
     
     <xsl:template match="cbml:panel">
 	<div class="card">
-	    <xsl:apply-template select="@facs" mode="card-img"/>
+	    <xsl:apply-templates select="@facs" mode="card-img"/>
         <div>
             <xsl:call-template name="add-class">
             	<xsl:with-param name="class" select="'card-body'"/>
@@ -187,24 +187,20 @@
 	</div>        
     </xsl:template>
 	
-	<xsl:template match="cbml:balloon">
+	<xsl:template match="cbml:balloon|cbml:caption|sound|byline">
 		<div class="card">
+			<xsl:if test="@who">
 			<div class="card-header"><xsl:apply-templates select="@who"/></div>
-        <xsl:element name="div">
+		</xsl:if>
+		<div>
             <xsl:call-template name="add-class">
             	<xsl:with-param name="class" select="'card-body'"/>
            	</xsl:call-template>
             <xsl:apply-templates select="node()"/>
-        </xsl:element>
+    </div>
 	</div>        
     </xsl:template>
     
-    <xsl:template match="cbml:caption|byline|sound">
-        <xsl:element name="div">
-            <xsl:call-template name="add-class"/>
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:element>
-    </xsl:template>
     
     <xsl:template match="speech">
         <xsl:element name="div">
