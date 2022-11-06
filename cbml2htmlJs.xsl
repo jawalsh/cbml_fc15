@@ -187,7 +187,7 @@
 	</div>        
     </xsl:template>
 	
-	<xsl:template match="cbml:balloon|cbml:caption|sound|byline">
+	<xsl:template match="cbml:balloon|cbml:caption|byline">
 		<div class="card">
 			<xsl:if test="@who">
 			<div class="card-header"><xsl:apply-templates select="@who"/></div>
@@ -200,6 +200,15 @@
     </div>
 	</div>        
     </xsl:template>
+	
+	<xsl:template match="sound">
+		<div class="callout">
+			<xsl:call-template name="add-class">
+            	<xsl:with-param name="class" select="'card-body'"/>
+           	</xsl:call-template>
+            <xsl:apply-templates select="node()"/>
+    	</div>
+	</xsl:template>
     
     
     <xsl:template match="speech">
