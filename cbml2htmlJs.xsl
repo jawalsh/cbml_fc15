@@ -214,7 +214,7 @@
   </xsl:template>
   <xsl:template match="pb">
     <xsl:param name="facs-id" select="(substring-after(@facs, '#'))"/>
-    <div class="page">
+    <figure class="figure">
       <!-- <h2 class="page"><xsl:value-of select="concat('Page ',@n)"/></h2> -->
       <a>
         <xsl:attribute name="href">
@@ -222,7 +222,7 @@
             <xsl:with-param name="size" select="'1200,'"/>
           </xsl:apply-templates>
         </xsl:attribute>
-        <img class="facs-page">
+        <img class="figure-img img-fluid">
           <xsl:attribute name="src">
             <xsl:apply-templates select="/TEI/facsimile/surface[@xml:id = $facs-id]/graphic" mode="page-link">
               <xsl:with-param name="size">
