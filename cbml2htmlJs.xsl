@@ -177,12 +177,13 @@
     
     <xsl:template match="cbml:panel">
 	<div class="card">
-        <xsl:element name="div">
+	    <xsl:apply-template select="@facs" mode="card-img"/>
+        <div>
             <xsl:call-template name="add-class">
             	<xsl:with-param name="class" select="'card-body'"/>
            	</xsl:call-template>
             <xsl:apply-templates select="@* | node()"/>
-        </xsl:element>
+        </div>
 	</div>        
     </xsl:template>
 	
@@ -222,7 +223,7 @@
         </strong>
     </xsl:template>
 
-    <xsl:template match="cbml:panel/@facs">
+    <xsl:template match="cbml:panel/@facs" mode="card-img">
         <xsl:param name="zone-id" select="(substring-after(., '#'))"/>
         <a>
 
@@ -233,7 +234,7 @@
                 </xsl:apply-templates>
             </xsl:attribute>
 
-            <img class="panel-thumb mx-auto img-fluid">
+            <img class="card-img-top">
                 <xsl:attribute name="src">
                     <xsl:apply-templates select="/TEI/facsimile/surface/zone[@xml:id = $zone-id]"
                         mode="zone-link">
