@@ -20,3 +20,8 @@
 div.balloon, div.sound, div.caption, div.panel {
 	margin-bottom: $paragraph-margin-bottom;
 }
+
+.fw {
+  @extend .h6;
+  @extend .text-center;
+}
