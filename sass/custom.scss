@@ -5,3 +5,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+.p {
+	margin-top: 0;                                                                                                                        
+	margin-bottom: $paragraph-margin-bottom;   
+}

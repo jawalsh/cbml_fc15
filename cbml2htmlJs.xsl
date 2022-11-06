@@ -160,33 +160,6 @@
     </xsl:template>
 
 
-    <!--
-    
-    <xsl:template match="div[@type='panelGrp']">
-        <div class="panelGrp">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-    
-    <xsl:template match="cbml:panel">
-        <div class="panel">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-    
-    <xsl:template match="cbml:balloon">
-        <div>
-            <xsl:attribute name="class">
-                <xsl:value-of select="'balloon '"/>
-                <xsl:value-of select="concat(normalize-space(@type),' ')"/>
-            </xsl:attribute>
-            <span class="label"><xsl:value-of select="concat(@who,' (',@type,'): ')"/></span>
-                <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-    
-    -->
-
     <xsl:template match="*">
         <xsl:element name="span">
             <xsl:call-template name="add-class"/>
@@ -196,45 +169,33 @@
     
 	<!-- block elements -->
 	<xsl:template match="div|p|head">
-        <xsl:element name="span">
+        <xsl:element name="div">
             <xsl:call-template name="add-class"/>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
-		</xsl:template>
+	</xsl:template>
     
-    
-    <xsl:template match="cbml:panel">
+    <xsl:template match="cbml:panel|cbml:balloon">
+	<div class="card">
         <xsl:element name="div">
             <xsl:call-template name="add-class">
-            	<xsl:with-param name="class" select="''"/>
+            	<xsl:with-param name="class" select="'card-body'"/>
            	</xsl:call-template>
             <xsl:apply-templates select="@* | node()"/>
-        </xsl:element>        
-    </xsl:template>
-    
-    <xsl:template match="cbml:balloon">
-        <xsl:element name="div">
-            <xsl:call-template name="add-class">
-                <xsl:with-param name="class" select="'box'"/>
-            </xsl:call-template>
-            <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
+	</div>        
     </xsl:template>
     
     <xsl:template match="cbml:caption|byline|sound">
         <xsl:element name="div">
-            <xsl:call-template name="add-class">
-                <xsl:with-param name="class" select="'box'"/>
-            </xsl:call-template>
+            <xsl:call-template name="add-class"/>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
     </xsl:template>
     
     <xsl:template match="speech">
         <xsl:element name="div">
-            <xsl:call-template name="add-class">
-                <xsl:with-param name="class" select="'box'"/>
-            </xsl:call-template>
+            <xsl:call-template name="add-class"/>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
     </xsl:template>
@@ -243,7 +204,7 @@
 		<xsl:param name="person-id" select="substring-after(., '#')"/>
         <strong>
             <xsl:call-template name="add-class">
-                <xsl:with-param name="class" select="'who block titlebar'"/>
+                <xsl:with-param name="class" select="'who card-title'"/>
             </xsl:call-template>
             <xsl:value-of select="/TEI/teiHeader/profileDesc/particDesc/listPerson/person[@xml:id = $person-id]/name"/>
         </strong>
