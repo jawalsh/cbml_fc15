@@ -232,7 +232,7 @@
           </xsl:attribute>
         </img>
       </a>
-    </div>
+    </figure>
   </xsl:template>
   <xsl:template match="graphic" mode="page-link">
     <xsl:param name="filename" select="@url"/>
