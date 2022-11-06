@@ -187,8 +187,8 @@
     </xsl:template>
 	
 	<xsl:template match="cbml:balloon">
-	<div class="card">
-		<div class="card-title"><xsl:apply-templates select="@who"/</div>
+		<div class="card">
+			<div class="card-header"><xsl:apply-templates select="@who"/></div>
         <xsl:element name="div">
             <xsl:call-template name="add-class">
             	<xsl:with-param name="class" select="'card-body'"/>
