@@ -214,6 +214,7 @@
   </xsl:template>
   <xsl:template match="pb">
     <xsl:param name="facs-id" select="(substring-after(@facs, '#'))"/>
+	<div>
     <figure class="figure">
       <!-- <h2 class="page"><xsl:value-of select="concat('Page ',@n)"/></h2> -->
       <a>
@@ -233,6 +234,7 @@
         </img>
       </a>
     </figure>
+	</div>
   </xsl:template>
   <xsl:template match="graphic" mode="page-link">
     <xsl:param name="filename" select="@url"/>
