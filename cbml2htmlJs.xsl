@@ -140,7 +140,7 @@
     </xsl:element>
   </xsl:template>
   <!-- block elements -->
-  <xsl:template match="div|p|head">
+  <xsl:template match="div|p|head|fw">
     <xsl:element name="div">
       <xsl:call-template name="add-class"/>
       <xsl:apply-templates select="@* | node()"/>
