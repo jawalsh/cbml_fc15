@@ -13,8 +13,10 @@
 
 .card:has(.panel) {
 	width: 24rem;
+	margin-bottom: $paragraph-margin-bottom;
 }
 
-.card:has(.balloon, .sound, .caption) {
+
+div.balloon, div.sound, div.caption, div.panel {
 	margin-bottom: $paragraph-margin-bottom;
 }
