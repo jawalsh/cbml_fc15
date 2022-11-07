@@ -12,7 +12,8 @@
 }
 
 .card:has(.panel) {
-	width: 24rem;
+	width: 90%;
+	max-width:400px;
 	margin-bottom: $paragraph-margin-bottom;
 }
 
@@ -21,7 +22,17 @@ div.balloon, div.sound, div.caption, div.panel {
 	margin-bottom: $paragraph-margin-bottom;
 }
 
-.fw {
+.fw.top, .fw.bottom {
   @extend .h6;
   @extend .text-center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.fw.right {
+  @extend .h6;
+  @extend .text-end;
+  @extend .btn; 
+  @extend .btn-outline-secondary;
+  @extend .float-end;
 }
