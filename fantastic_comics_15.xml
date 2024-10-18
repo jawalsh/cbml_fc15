@@ -596,7 +596,7 @@
                         </cbml:panel>
                         <cbml:panel facs="#pg_06_pnl_05">
                             <cbml:balloon type="speech" who="#david">
-                                <emph>Look out!</emph> YOu are getting careless! </cbml:balloon>
+                                <emph>Look out!</emph> You are getting careless! </cbml:balloon>
                             <cbml:balloon type="speech" who="#samson">
                                 <emph>Oops!</emph> What’s this? </cbml:balloon>
                         </cbml:panel>
