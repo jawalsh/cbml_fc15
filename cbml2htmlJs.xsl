@@ -37,7 +37,7 @@
   <xsl:template match="sourceDesc">
     <ul>
       <li>
-        <span class="label">title: </span>
+        <span>title: </span>
         <xsl:value-of select="normalize-space(biblStruct/monogr/title)"/>
         <xsl:if test="biblStruct/monogr/imprint/biblScope[@unit = 'issue']">
           <xsl:value-of select="concat(' #', normalize-space(biblStruct/monogr/imprint/biblScope[@unit = 'issue']))"/>
@@ -45,14 +45,14 @@
       </li>
       <xsl:if test="biblStruct/monogr/imprint/date/@when">
         <li>
-          <span class="label">date: </span>
+          <span>date: </span>
           <xsl:call-template name="print-human-date">
             <xsl:with-param name="date" select="biblStruct/monogr/imprint/date/@when"/>
           </xsl:call-template>
         </li>
       </xsl:if>
       <li>
-        <span class="label">publisher: </span>
+        <span>publisher: </span>
         <xsl:value-of select="biblStruct/monogr/imprint/publisher"/>
       </li>
     </ul>
@@ -147,39 +147,38 @@
     </xsl:element>
   </xsl:template>
   <xsl:template match="cbml:panel">
-    <div class="card">
+	  <div class="panel">
+    <div class="card" style="max-width:400xp;">
       <xsl:apply-templates select="@facs" mode="card-img"/>
-      <div>
-        <xsl:call-template name="add-class">
-          <xsl:with-param name="class" select="'card-body'"/>
-	</xsl:call-template>
+      <div class="card-body">
         <xsl:apply-templates select="@* | node()"/>
       </div>
     </div>
+    </div>
   </xsl:template>
   <xsl:template match="cbml:balloon|cbml:caption|byline|sound">
-    <div class="card">
+    <div>
       <xsl:call-template name="add-class">
         <xsl:with-param name="class">
           <xsl:choose>
             <xsl:when test="local-name()='caption' or local-name()='byline'">
-              <xsl:value-of select="'card text-bg-warning'"/>
+              <xsl:value-of select="'text-bg-warning'"/>
             </xsl:when>
 	    <xsl:when test="local-name()='sound'">
-              <xsl:value-of select="'card text-bg-info'"/>
+              <xsl:value-of select="'text-bg-info'"/>
 	    </xsl:when>
             <xsl:otherwise>
-              <xsl:value-of select="'card'"/>
+              <xsl:value-of select="''"/>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:with-param>
       </xsl:call-template>
       <xsl:if test="@who">
-        <div class="card-header">
+        <div>
           <xsl:apply-templates select="@who"/>
         </div>
       </xsl:if>
-      <div class="card-body">
+      <div>
         <xsl:apply-templates select="node()"/>
       </div>
     </div>
@@ -188,7 +187,7 @@
     <xsl:param name="person-id" select="substring-after(., '#')"/>
     <strong>
       <xsl:call-template name="add-class">
-        <xsl:with-param name="class" select="'who card-title'"/>
+        <xsl:with-param name="class" select="'who'"/>
       </xsl:call-template>
       <xsl:value-of select="/TEI/teiHeader/profileDesc/particDesc/listPerson/person[@xml:id = $person-id]/name"/>
     </strong>
@@ -201,7 +200,7 @@
           <xsl:with-param name="size" select="'1200,'"/>
         </xsl:apply-templates>
       </xsl:attribute>
-      <img class="card-img-top">
+      <img class="card-img-top" style="max-width:400px;">
         <xsl:attribute name="src">
           <xsl:apply-templates select="/TEI/facsimile/surface/zone[@xml:id = $zone-id]" mode="zone-link">
             <xsl:with-param name="size">
