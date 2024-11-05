@@ -146,9 +146,26 @@
       <xsl:apply-templates select="@* | node()"/>
     </xsl:element>
   </xsl:template>
+
+  <xsl:template match="fw[@place = 'top']">
+	  <xsl:element name="div">
+		  <div class="card" style="width:300px;">
+			  <div class="card-body">
+				  <h5 class="card-title">
+		  			  <xsl:call-template name="add-class"/>
+					  <xsl:apply-templates select="@* | node()"/>
+				  </h5>
+				  <div class="card-text">
+					  <xsl:value-of select="'[running header]'"/>
+				  </div>
+			  </div>
+		  </div>
+	  </xsl:element>
+  </xsl:template>
+
   <xsl:template match="cbml:panel">
 	  <div class="panel">
-    <div class="card" style="width: 32rem;">
+    <div class="card" style="width: 300px;">
       <xsl:apply-templates select="@facs" mode="card-img"/>
       <div class="card-body">
         <xsl:apply-templates select="@* | node()"/>
@@ -156,7 +173,34 @@
     </div>
     </div>
   </xsl:template>
-  <xsl:template match="cbml:balloon|cbml:caption|byline|sound">
+  <xsl:template match="sound|byline|cbml:caption|cbml:balloon">
+	  <div>
+		  <xsl:call-template name="add-class">
+			  <xsl:with-param name="class">
+				  <xsl:choose>
+					  <xsl:when test="local-name() = 'sound'">
+				  <xsl:value-of select="'alert alert-danger'"/>
+			  </xsl:when>
+			  <xsl:when test="local-name() = 'caption' or local-name() = 'byline'">
+				  <xsl:value-of select="'alert alert-warning'"/>
+			  </xsl:when>
+			  <xsl:when test="local-name() = 'balloon'">
+				  <xsl:value-of select="'alert alert-light'"/>
+			  </xsl:when>
+		  </xsl:choose>
+
+			  </xsl:with-param>
+		  </xsl:call-template>
+		    <xsl:if test="@who">
+        <div>
+          <xsl:apply-templates select="@who"/>
+        </div>
+      </xsl:if>
+
+		  <xsl:apply-templates/>
+	  </div>
+  </xsl:template>
+  <xsl:template match="cbml:blalloon">
     <div>
       <xsl:call-template name="add-class">
         <xsl:with-param name="class">
@@ -213,9 +257,8 @@
   </xsl:template>
   <xsl:template match="pb">
     <xsl:param name="facs-id" select="(substring-after(@facs, '#'))"/>
-	<div>
+    <div class="pb">
     <figure class="figure">
-      <!-- <h2 class="page"><xsl:value-of select="concat('Page ',@n)"/></h2> -->
       <a>
         <xsl:attribute name="href">
           <xsl:apply-templates select="/TEI/facsimile/surface[@xml:id = $facs-id]/graphic" mode="page-link">
