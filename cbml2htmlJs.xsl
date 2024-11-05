@@ -148,6 +148,20 @@
     </xsl:element>
   </xsl:template>
 
+  <xsl:template match="fw[@type='pageNum']">
+	  <button type="button" class="btn btn-outline-dark">
+		  <xsl:attribute name="style">
+			  <xsl:choose>
+				  <xsl:when test="@place = 'right'">
+					  <xsl:value-of select="'float:right;'"/>
+				  </xsl:when>
+			  </xsl:choose>
+		  </xsl:attribute>
+		<xsl:apply-templates/>
+	  </button>
+  </xsl:template>
+
+
   <xsl:template match="fw[@place = 'top']">
 	  <xsl:element name="div">
 		  <div class="card" style="{concat('width: ',$panel_width,';')}">
