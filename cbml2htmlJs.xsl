@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cbml="http://www.cbml.org/ns/1.0" exclude-result-prefixes="xs" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
   <xsl:output method="xml" encoding="utf-8" version="1.0" indent="yes" standalone="no" media-type="text/html" omit-xml-declaration="no" doctype-system="about:legacy-compat"/>
   <xsl:param name="iiif_base" select="'https://images.biblicon.org/iiif/3/'"/>
+  <xsl:param name="panel_width" select="'30rem'"/>
   <xsl:template match="xsl:stylesheet">
     <xsl:apply-templates/>
   </xsl:template>
@@ -149,10 +150,12 @@
 
   <xsl:template match="fw[@place = 'top']">
 	  <xsl:element name="div">
-		  <div class="card" style="width:300px;">
+		  <div class="card" style="{concat('width: ',$panel_width,';')}">
 			  <div class="card-body">
-				  <h5 class="card-title">
-		  			  <xsl:call-template name="add-class"/>
+				  <h5>
+		  			  <xsl:call-template name="add-class">
+						  <xsl:with-param name="class" select="'card-title'"/>
+					  </xsl:call-template>
 					  <xsl:apply-templates select="@* | node()"/>
 				  </h5>
 				  <div class="card-text">
@@ -165,7 +168,7 @@
 
   <xsl:template match="cbml:panel">
 	  <div class="panel">
-    <div class="card" style="width: 300px;">
+		  <div class="card" style="{concat('width: ',$panel_width,';')}">
       <xsl:apply-templates select="@facs" mode="card-img"/>
       <div class="card-body">
         <xsl:apply-templates select="@* | node()"/>
@@ -244,11 +247,11 @@
           <xsl:with-param name="size" select="'1200,'"/>
         </xsl:apply-templates>
       </xsl:attribute>
-      <img class="card-img-top" style="max-width:400px;">
+      <img class="card-img-top">
         <xsl:attribute name="src">
           <xsl:apply-templates select="/TEI/facsimile/surface/zone[@xml:id = $zone-id]" mode="zone-link">
             <xsl:with-param name="size">
-              <xsl:value-of select="'300,'"/>
+              <xsl:value-of select="'500,'"/>
             </xsl:with-param>
           </xsl:apply-templates>
         </xsl:attribute>
