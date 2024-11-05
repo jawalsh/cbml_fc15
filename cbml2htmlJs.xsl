@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cbml="http://www.cbml.org/ns/1.0" exclude-result-prefixes="xs" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
   <xsl:output method="xml" encoding="utf-8" version="1.0" indent="yes" standalone="no" media-type="text/html" omit-xml-declaration="no" doctype-system="about:legacy-compat"/>
-  <xsl:param name="iiif_base" select="'http://images.biblicon.org/iiif/3/'"/>
+  <xsl:param name="iiif_base" select="'https://images.biblicon.org/iiif/3/'"/>
   <xsl:template match="xsl:stylesheet">
     <xsl:apply-templates/>
   </xsl:template>
@@ -148,7 +148,7 @@
   </xsl:template>
   <xsl:template match="cbml:panel">
 	  <div class="panel">
-    <div class="card" style="max-width:400xp;">
+    <div class="card" style="width: 32rem;">
       <xsl:apply-templates select="@facs" mode="card-img"/>
       <div class="card-body">
         <xsl:apply-templates select="@* | node()"/>

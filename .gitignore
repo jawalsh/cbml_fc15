@@ -21,3 +21,5 @@ package-lock.json
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
 .DS_Store
+/node_modules
+/saxon-js
