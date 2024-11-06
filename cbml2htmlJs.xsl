@@ -275,6 +275,7 @@
   <xsl:template match="pb">
     <xsl:param name="facs-id" select="(substring-after(@facs, '#'))"/>
     <div class="pb">
+    <h2><xsl:value-of select="@n"/></h2>
     <figure class="figure">
       <a>
         <xsl:attribute name="href">
@@ -286,7 +287,7 @@
           <xsl:attribute name="src">
             <xsl:apply-templates select="/TEI/facsimile/surface[@xml:id = $facs-id]/graphic" mode="page-link">
               <xsl:with-param name="size">
-                <xsl:value-of select="'400,'"/>
+                <xsl:value-of select="'500,'"/>
               </xsl:with-param>
             </xsl:apply-templates>
           </xsl:attribute>
