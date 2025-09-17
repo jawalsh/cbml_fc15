@@ -1,0 +1,2625 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://biblicon.org/iiif/manifests/manifest_fc015.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Fantastic Comics #15"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 1"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p1/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p1/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_01.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_01.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 2"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p2/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p2/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_02.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_02.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 3"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p3/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p3/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_03.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_03.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 4"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p4/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p4/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_04.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_04.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 5"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p5/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p5/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_05.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_05.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 6"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p6/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p6/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_06.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_06.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 7"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p7/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p7/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_07.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_07.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 8"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p8/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p8/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_08.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_08.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 9"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p9/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p9/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_09.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_09.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 10"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p10/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p10/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_10.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_10.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 11"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p11/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p11/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_11.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_11.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 12"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p12/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p12/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_12.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_12.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p13",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 13"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p13/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p13/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_13.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_13.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p14",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 14"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p14/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p14/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_14.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_14.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 15"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p15/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p15/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_15.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_15.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p16",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 16"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p16/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p16/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_16.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_16.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p17",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 17"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p17/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p17/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_17.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_17.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p18",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 18"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p18/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p18/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_18.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_18.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p19",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 19"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p19/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p19/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_19.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_19.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p20",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 20"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p20/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p20/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_20.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_20.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p21",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 21"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p21/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p21/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_21.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_21.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p22",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 22"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p22/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p22/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_22.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_22.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p23",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 23"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p23/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p23/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_23.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_23.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p24",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 24"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p24/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p24/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_24.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_24.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p25",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 25"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p25/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p25/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_25.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_25.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p26",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 26"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p26/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p26/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_26.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_26.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p27",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 27"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p27/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p27/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_27.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_27.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p28",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 28"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p28/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p28/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_28.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_28.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p29",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 29"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p29/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p29/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_29.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_29.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p30",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 30"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p30/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p30/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_30.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_30.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p31",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 31"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p31/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p31/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_31.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_31.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p32",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 32"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p32/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p32/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_32.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_32.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p33",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 33"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p33/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p33/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_33.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_33.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p34",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 34"
+        ]
+      },
+      "height": 3088,
+      "width": 4480,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p34/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p34/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_34_35.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 4480,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_34_35.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p35",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 35"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p35/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p35/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_36.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_36.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p36",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 36"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p36/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p36/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_37.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_37.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p37",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 37"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p37/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p37/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_38.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_38.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p38",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 38"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p38/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p38/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_39.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_39.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p39",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 39"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p39/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p39/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_40.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_40.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p40",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 40"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p40/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p40/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_41.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_41.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p41",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 41"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p41/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p41/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_42.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_42.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p41"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p42",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 42"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p42/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p42/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_43.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_43.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p43",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 43"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p43/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p43/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_44.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_44.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p44",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 44"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p44/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p44/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_45.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_45.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p44"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p45",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 45"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p45/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p45/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_46.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_46.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p46",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 46"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p46/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p46/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_47.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_47.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p47",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 47"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p47/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p47/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_48.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_48.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p48",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 48"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p48/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p48/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_49.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_49.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p49",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 49"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p49/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p49/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_50.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_50.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p50",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 50"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p50/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p50/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_51.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_51.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p51",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 51"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p51/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p51/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_52.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_52.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p52",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 52"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p52/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p52/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_53.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_53.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p53",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 53"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p53/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p53/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_54.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_54.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p54",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 54"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p54/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p54/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_55.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_55.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p55",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 55"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p55/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p55/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_56.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_56.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p56",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 56"
+        ]
+      },
+      "height": 3088,
+      "width": 2228,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p56/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p56/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_57.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2228,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_57.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p57",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 57"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p57/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p57/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_58.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_58.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p57"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p58",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 58"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p58/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p58/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_59.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_59.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p58"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p59",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 59"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p59/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p59/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_60.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_60.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p60",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 60"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p60/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p60/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_61.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_61.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p60"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p61",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 61"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p61/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p61/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_62.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_62.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p61"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p62",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 62"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p62/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p62/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_63.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_63.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p62"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p63",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 63"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p63/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p63/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_64.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_64.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p63"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p64",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 64"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p64/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p64/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_65.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_65.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p65",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 65"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p65/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p65/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_66.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_66.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p65"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p66",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 66"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p66/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p66/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_67.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_67.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p66"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://biblicon.org/iiif/manifests/canvas/p67",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 67"
+        ]
+      },
+      "height": 3088,
+      "width": 2240,
+      "items": [
+        {
+          "id": "https://biblicon.org/iiif/manifests/page/p67/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://biblicon.org/iiif/manifests/page/p67/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_68.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3088,
+                "width": 2240,
+                "service": [
+                  {
+                    "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_68.tif",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://biblicon.org/iiif/manifests/canvas/p67"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
