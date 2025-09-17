@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "<BASE_URL>/manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["<Comic Book Title>"] },
+  "metadata": [
+    { "label": { "en": ["Creator"] }, "value": { "en": ["<Creator Name>"] } },
+    { "label": { "en": ["Publisher"] }, "value": { "en": ["<Publisher Name>"] } },
+    { "label": { "en": ["Date"] }, "value": { "en": ["<Publication Year>"] } }
+  ],
+  "items": [
+    {
+      "id": "<BASE_URL>/canvas/p1",
+      "type": "Canvas",
+      "label": { "en": ["Page 1"] },
+      "height": <IMAGE_HEIGHT>,
+      "width": <IMAGE_WIDTH>,
+      "items": [
+        {
+          "id": "<BASE_URL>/page/p1/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "<BASE_URL>/page/p1/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "<URL_TO_IMAGE_1>",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": <IMAGE_HEIGHT>,
+                "width": <IMAGE_WIDTH>
+              },
+              "target": "<BASE_URL>/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "<BASE_URL>/canvas/p2",
+      "type": "Canvas",
+      "label": { "en": ["Page 2"] },
+      "height": <IMAGE_HEIGHT>,
+      "width": <IMAGE_WIDTH>,
+      "items": [
+        {
+          "id": "<BASE_URL>/page/p2/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "<BASE_URL>/page/p2/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "<URL_TO_IMAGE_2>",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": <IMAGE_HEIGHT>,
+                "width": <IMAGE_WIDTH>
+              },
+              "target": "<BASE_URL>/canvas/p2"
+            }
+          ]
+        }
+      ]
+    }
+    // …repeat for all additional pages…
+  ]
+}
