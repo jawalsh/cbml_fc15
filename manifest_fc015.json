@@ -36,8 +36,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_01.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -75,8 +74,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_02.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -114,8 +112,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_03.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -153,8 +150,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_04.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -192,8 +188,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_05.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -231,8 +226,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_06.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -270,8 +264,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_07.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -309,8 +302,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_08.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -348,8 +340,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_09.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -387,8 +378,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_10.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -426,8 +416,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_11.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -465,8 +454,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_12.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -504,8 +492,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_13.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -543,8 +530,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_14.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -582,8 +568,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_15.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -621,8 +606,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_16.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -660,8 +644,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_17.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -699,8 +682,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_18.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -738,8 +720,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_19.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -777,8 +758,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_20.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -816,8 +796,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_21.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -855,8 +834,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_22.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -894,8 +872,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_23.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -933,8 +910,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_24.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -972,8 +948,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_25.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1011,8 +986,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_26.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1050,8 +1024,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_27.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1089,8 +1062,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_28.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1128,8 +1100,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_29.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1167,8 +1138,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_30.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1206,8 +1176,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_31.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1245,8 +1214,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_32.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1284,8 +1252,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_33.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1323,8 +1290,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_34_35.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1362,8 +1328,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_36.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1401,8 +1366,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_37.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1440,8 +1404,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_38.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1479,8 +1442,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_39.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1518,8 +1480,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_40.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1557,8 +1518,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_41.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1596,8 +1556,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_42.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1635,8 +1594,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_43.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1674,8 +1632,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_44.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1713,8 +1670,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_45.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1752,8 +1708,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_46.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1791,8 +1746,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_47.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1830,8 +1784,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_48.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1869,8 +1822,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_49.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1908,8 +1860,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_50.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1947,8 +1898,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_51.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -1986,8 +1936,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_52.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2025,8 +1974,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_53.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2064,8 +2012,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_54.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2103,8 +2050,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_55.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2142,8 +2088,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_56.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2181,8 +2126,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_57.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2220,8 +2164,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_58.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2259,8 +2202,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_59.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2298,8 +2240,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_60.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2337,8 +2278,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_61.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2376,8 +2316,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_62.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2415,8 +2354,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_63.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2454,8 +2392,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_64.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2493,8 +2430,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_65.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2532,8 +2468,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_66.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2571,8 +2506,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_67.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
@@ -2610,8 +2544,7 @@
                 "service": [
                   {
                     "id": "https://images.biblicon.org/iiif/3/fantastic_comics_015_pg_68.tif",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "type": "ImageService3"
                   }
                 ]
               },
