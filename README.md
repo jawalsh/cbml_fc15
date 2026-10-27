@@ -2,7 +2,7 @@ README.MD for CBML and SaxonJS demo
 ---
 
 John A. Walsh   
-<mailto:jawalsh@indiana.edu>
+[jawalsh@iu.edu](mailto:jawalsh@iu.edu)
 
 # Files and directories
 
